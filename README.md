@@ -4,7 +4,7 @@ Add a description
 
 Foo
 
-Heyyyy it's me, it's quit hard to understand GitHub
+Heyyyy it's me, it's quit hard to understand GitHub ...
 
 ```
 ├── README.md <- The top-level README for developers using this project.
