@@ -133,9 +133,13 @@ Pour certains territoires et indicateurs, il peut y avoir des anomalies dans les
 Si vous souhaitez contribuer à ce projet, merci de bien vouloir nous contacter:
 
 Alfonso Awadalla Carreño - alfonso.awadalla-carreno@polytechnique.edu
+
 Jade Sillere - jade.sillere@polytechnique.edu
+
 Julian Rojas - julian.rojas@polytechnique.edu
+
 Maela Guillaume-Le-Gall - maela.guillaume-le-gall@polytechnique.edu
+
 Sofia Vaca - sofia.vaca@polytechnique.edu
 
 ### **Remerciements**
