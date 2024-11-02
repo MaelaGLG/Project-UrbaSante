@@ -110,26 +110,22 @@ Pour certains territoires et indicateurs, il peut y avoir des anomalies dans les
 
 ### **Structure des fichiers**
 ```
-├── README.md <- The top-level README for developers using this project.
-├── LICENSE <- Licence for the repository (by default, MIT)
-├── requirements.txt <- The requirements file for reproducing the analysis environment
-├── data
-│   ├── raw <- Original data
-│   ├── intermediate  <- Intermediate data that has been transformed
-│   └── processed  <- The final data set if transformed
-│
-├── docs <- Documentation of the code
-│   └── examples <- Example of how to use it (notebooks) 
-│
-├── src <- Source code for use in this project.
-│   ├── exploratory <- Exploratory scripts
-│   ├── features <- Scripts to turn raw data into features for modeling
-│   ├── models <- Scripts to train models and then use trained models to make
-│   └── analysis <- Scripts to produce results
-│
-├── reports <- Generated analysis as HTML, PDF, LaTeX, etc.
-│
-└── app <- If relevant, scripts to run an app
+├── README.md               <- Le fichier README principal pour les développeurs utilisant ce projet.
+├── LICENSE                 <- Licence MIT pour le dépôt
+├── requirements.txt        <- Le fichier des exigences pour reproduire l'environnement d'analyse
+├── data                    <- Dossier de données
+│   ├── raw                 <- Données originales (présentes dans différents formats, ex. géospatial, JSON, CSV, etc.)
+│   ├── intermediate        <- Données intermédiaires qui ont été transformées
+│   ├── processed           <- Ensemble de données final prêtes pour utilisation dans l'application
+│   └── shapefiles          <- Contient les liens de téléchargement pour les shapefiles nécessaires
+├── docs                    <- Documentation du code
+├── examples                <- Exemples d'utilisation (notebooks)
+├── src                     <- Code source à utiliser dans ce projet
+│   ├── Déterminants        <- Scripts pour transformer les données brutes en indicateurs, répartis entre groupements d'indicateurs similaires
+│   │                          (par ex., Déterminant 1 - Qualité de l'air)
+│   └── Formattage          <- Scripts pour transformer les données d'indicateurs en fichier d'entrée simplifié
+├── reports                 <- Analyses générées sous forme de HTML, PDF, LaTeX, etc.
+└── app                     <- Scripts pour exécuter l'application de visualisation Rshiny
 ```
 
 ### **Contributions**
