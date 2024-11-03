@@ -1,6 +1,6 @@
 # Procedure to build indicators
 
-## Explanations
+## Explanations
 
 Our project contains three satellitre indicators across two déterminants:
 - Déterminant 4: "Surface Imperméable" / "Couverture Forestière"
