@@ -30,8 +30,8 @@ path_communes = "path/to/folder/2- Communes INSEE/communes-20220101.shp"
 communes = st_read(path_communes)
 
 # Read the Departements shapefile from the INSEE
-path_departements = "/path/to/folder/departement_shapefile.rds"
-departements = readRDS(path_departements)
+path_departements = "/path/to/folder/departements-20180101.shp"
+departements = st_read(path_departements)
 
 # Read the Regions shapefile from the INSEE
 path_regions = "/path/to/folder/regions-20180101.shp"
