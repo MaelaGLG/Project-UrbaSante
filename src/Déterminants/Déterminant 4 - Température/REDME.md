@@ -1,15 +1,17 @@
-# Procedure to build indicators
+# Procedure to Build Indicators
 
 ## Explanations
 
-Our project contains three satellitre indicators across two déterminants:
-- Déterminant 4: "Surface Imperméable" / "Couverture Forestière"
-- Déterminant 5: "Radiance"
-The scripts is the same for those three indicators, the procedure to build them is listed below
+Our project includes three satellite indicators across two determinants:
+- Determinant 4: "Impermeable Surface" / "Forest Cover"
+- Determinant 5: "Radiance"
 
-## Procedure to build each indicator separately
+The same script is used for each of these indicators, and the procedure to build them is detailed below.
 
-- Step 1: download the data associated to the indicator
-- Step 2: open the "satellite master file" script and update all the paths manually based on the repo you're working on
-- Step 3: open the "satellite indicator" script and run it to build the indicator
-- Repeat those steps for each of the three indicators
+## Procedure to Build Each Indicator Separately
+
+1. **Download the data** associated with the specific indicator.
+2. Open the **"satellite master file"** script and update all paths manually based on the repository you're working in.
+3. Open the **"satellite indicator"** script and run it to build the indicator.
+   
+Repeat these steps for each of the three indicators.
