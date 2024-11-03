@@ -13,10 +13,8 @@ packages <- c("raster", "sp", "tmap", "sf", "dplyr", "readxl", "shapefiles")
 for (pkg in packages) {
   if (!require(pkg, character.only = TRUE)) {
     install.packages(pkg, dependencies = TRUE)
-    library(pkg, character.only = TRUE)
-  } else {
-    library(pkg, character.only = TRUE)
-  }
+  } 
+  library(pkg, character.only = TRUE)
 }
 
 #--------------------------- Update Paths Manually ----------------------------#
