@@ -1,3 +1,3 @@
-# Scripts de traitement des données par Déterminant
+# Data processing scripts by Determinant
 
-Ce dossier contient les scripts utilisées pour traiter les données et est organisé par déterminant (c-à-d. par groupement d'indicateurs) et puis par indicateur.
+This folder contains the scripts used to process the data and is organised by determinant (i.e. by grouping of indicators) and then by indicator.
