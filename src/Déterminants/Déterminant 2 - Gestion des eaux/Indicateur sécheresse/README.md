@@ -57,7 +57,7 @@ Place the necessary files:
 
 GeoJSON file: zones_arretes_en_vigueur.geojson
 Shapefile: all_zones.shp
-These files can be found in the "raw" folder inside the Data files or downloadable:
+These files can be found in the "raw" folder inside the Data files (except all_zones.shp) or downloadable:
 https://www.data.gouv.fr/fr/datasets/donnee-secheresse-propluvia/
 
 Run the notebook cells sequentially to load, process, analyze, and visualize the data.
