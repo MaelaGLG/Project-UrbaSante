@@ -40,4 +40,4 @@ dengue_df$scale <- "Regions"
 dengue_df <- dengue_df %>% rename(code_insee = code)
 
 # Save database
-saveRDS(df, "dengue_df.rds")
+saveRDS(dengue_df, "dengue_df.rds")
