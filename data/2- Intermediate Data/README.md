@@ -1,4 +1,2 @@
-Maelas intermidate ones indicators, column change to scale to niveau, values level change, drop tom excluded + shape files
-Convert jades julian geopoint into polygons in France at each scale (when available)
-Sofia: scale to niveau + regions lacking s
-
+# Intermediate Data
+This folder contains the data files with the indicators that have already been created. These files represent the processed data, ready for further formatting or final analysis.
