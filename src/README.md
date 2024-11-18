@@ -1,3 +1,39 @@
+# Répertoire des scripts
+Ce dossier contient les scripts utilisés dans le projet. Ces scripts exécutent différentes tâches, notamment le traitement des données, la création d'indicateurs, le formatage et le développement d'une application R Shiny. 
+
+Les scripts sont organisés en trois dossiers principaux, chacun jouant un rôle spécifique dans le pipeline de traitement des données. Vous trouverez ci-dessous une description détaillée de l'objectif de chaque dossier :
+
+# 1- Rangée --> Intermédiaire
+Objectif : Ce dossier contient les scripts qui traitent les données brutes et créent les indicateurs. 
+
+Structure : Le dossier est organisé en dossiers pour chaque déterminant, où chaque dossier de déterminant contient les scripts utilisés pour la création des indicateurs de ce déterminant. Chaque script crée l'indicateur et l'exporte. 
+
+# 2- Intermédiaire --> Formaté
+Objectif : Ce dossier contient les scripts qui formatent les indicateurs qui ont besoin d'un formatage supplémentaire. Ce formatage supplémentaire concerne principalement les données de latitude/longitude, pour lesquelles la conversion des points en polygones à différentes échelles était nécessaire.
+
+Structure : Chaque indicateur nécessitant un formatage supplémentaire possède son propre script. 
+
+# 3- Formatted --> Final
+Objectif : Ce dossier contient le script qui s'assure que tous les indicateurs ont le même formatage et qui les fusionne. 
+
+Structure : Il n'y a qu'un seul script dans ce dossier. 
+
+# Comment l'utiliser :
+Pour répliquer l'application, il y a deux façons possibles : 
+
+# A. Partir des données formatées
+Partir du dossier « 3- Formatted --> Final » qui formate et fusionne tous les indicateurs créés. 
+
+# B. Partir des données brutes
+1. Commencez par les données brutes : Assurez-vous que les différents ensembles de données brutes sont prêts dans le format attendu par les scripts dans le dossier 1- Row --> Intermediate.
+
+2. Traitez les données brutes : Exécutez les scripts du dossier 1- Row --> Intermediate pour créer les indicateurs.
+
+3. Formatez les indicateurs : Après avoir généré les indicateurs, utilisez les scripts du dossier 2- Intermediate --> Formatted pour formater ceux qui ont besoin d'un formatage supplémentaire.
+
+
+
+
 # Scripts Directory
 This folder contains the scripts used in the project. These scripts perform different tasks, including data processing, creation of indicators, formatting and developing an R Shiny App. 
 
