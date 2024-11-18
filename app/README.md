@@ -46,7 +46,7 @@ Si vous trouvez des erreurs dans le code, ou vous avez des améliorations à nou
 
 ------------------------------------------------------------------------
 
-# R-Shiny App App
+# R-Shiny App
 
 The R-Shiny App tool is designed to support local authorities in conducting health-diagnostic assessments and urban planning of their territories by providing an overview of various health determinants through a mapping data platform. This platform highlights indicators related to health and urban planning at a fine-grained territorial level across metropolitan France.
 
