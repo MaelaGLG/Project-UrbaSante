@@ -1,27 +1,20 @@
-# Project Urba Santé
+# Projet Urbasanté - ECOLAB
 
-Ce projet est le résultat d'une collaboration entre le MSc&T en Data and Economics for Public Policy à l'École Polytechnique, Telecom et ENSAE et l’ECOLAB, laboratoire d’innovation pour la transition écologique du Commissariat Général au Développement Durable.
+Ce projet est le résultat d'une collaboration entre le MSc&T "Data and Economics for Public Policy" (École Polytechnique, ENSAE & Telecom), et ECOLAB, le laboratoire d’innovation pour la transition écologique du Commissariat Général au Développement Durable.
 
-Dans ce cadre, un challenge permettant le développement d’outils ancrés dans la communauté de la donnée en santé-environnement afin d’adresser des problématiques partagées a été organisé en 2023.
+Dans ce cadre, un challenge a été proposé aux étudiant.es du master : construire un outil d'observation et d'analyse des différents déterminants de santé en lien avec l'aménagement du territoire à une maille fine du territoire. 
 
-## Projet Urbasanté
+## Constat 
+En agissant sur les différents déterminants de santé, l'aménagement du territoire excerce une influence significative sur la santé des populations. Globalement, en intervenant sur l'environnement, les habitudes de vie et les comportements, il est estimé que l'aménagement du territoire peut affecter jusqu'à 60% de la santé d'un individu (Barton et al., 2015). Cependant, dans le contexte actuel de changement climatique, les services et le cadre de vie fournis par les écosystèmes urbains risquent de se détériorer considérablement, entraînant des conséquences sur la santé publique. Or, la santé et l'environnement sont souvent gérés de manière indépendante au sein des territoires, avec peu d'interaction entre les deux domaines. Pourtant, les avantages potentiels pour la santé publique sont significatifs. Selon Santé Publique France, près d'un tiers des cancers pourraient être évités en modifiant les habitudes de vie de la population. 
 
-En agissant sur nos comportements et nos modes de vies, l’aménagement du territoire a un rôle majeur dans la santé physique, mentale et sociale de la population. Globalement, en intervenant sur l'environnement, les habitudes de vie et les comportements, il est estimé que l'aménagement du territoir peut affecté jusqu'à 60% de la santé d'un individu.
+Face à ce constat, il est nécessaire d'accompagner les décideurs locaux en leur fournissant un outil de sensibilisation, afin de les aider à mieux appréhender la thématique santé-aménagement. L'objectif de l'outil est ainsi d'accompagner les collectivités locales dans la réalisation de diagnostics en santé- aménagement de leurs territoires, en proposant une restitution des différents déterminants de santé à travers une plateforme de données cartographiques mettant en lumière des indicateurs en lien avec la santé-aménagement à une maille fine du territoire et pour l'ensemble de la France métropolitaine.
 
-Cependant, dans le contexte actuel de changement climatique, les services et le cadre de vie fournis par les écosystèmes urbains risquent de se détériorer considérablement, entraînant des conséquences sur la santé publique.
+## **Construction des Indicateurs de Santé-Environnement**
 
-Or, la santé et l'environnement sont souvent gérés de manière indépendante au sein des territoires, avec peu d'interaction entre les deux domaines. Pourtant, les avantages potentiels pour la santé publique sont significatifs. Selon Santé publique France, près d'un tiers des cancers pourraient être évités en modifiant les habitudes de vie de la population.
-
-Face à ce constat, il est nécessaire d'accompagner les décideurs locaux en leur fournissant un outil de sensibilisation, afin de les aider à mieux appréhender la thématique santé-aménagement. 
-
-L'objectif de l'outil est ainsi d'accompagner les collectivités locales dans la réalisation de diagnostics en santé- aménagement de leurs territoires, en proposant une restitution des différents déterminants de santé à travers une plateforme de données cartographiques mettant en lumière des indicateurs en lien avec la santé-aménagement à une maille fine du territoire et pour l'ensemble de la France métropolitaine.
+Nous avons compilé ou construit, à partir de différentes sources administratives, 29 indicateurs répartis entre 11 déterminants de santé-environnement. 
 
 
-## **Les indicateurs**
-
-Pour être visualisés à l'aide de l'outil de visualisation, à différentes résolutions spatiales, nous avons créé 29 indicateurs répartis entre 11 déterminants socio-sanitaires :
-
-| Domaine                                     | Indicateur                               | Description                                             | Année |
+| Déterminant de Santé-Environnement          | Indicateur                               | Description                                             | Année |
 |---------------------------------------------|------------------------------------------|---------------------------------------------------------|-------|
 | Qualité de l'air                            | atmo                                     | Pourcentage de jours avec un ATMO score au-delà de 3/6 | 2022  |
 | Qualité de l'air                            | somo35                                   | Score SOMO35                                           | 2022  |
@@ -54,41 +47,22 @@ Pour être visualisés à l'aide de l'outil de visualisation, à différentes r�
 | Revenu                                      | age_plus_65                             | Part des pers. âgées de 65 ans ou +                     | 2020  |
 
 
-### **Installation**
+Les indicateurs de l'application cartographique proviennent soit directement de sites administratifs, auquel cas la source utilisée est indiquée dans le dossier "data" dans le fichier du déterminant correspondant. Pour les indicateurs construits, la méthodologie et les étapes de reproduction sont détaillées dans les codes disponibles (R, Stata ou Python) dans le dossier "scr".
 
-Lors de l'exécution de l'outil de visualisation, veuillez vous assurer que vous avez téléchargé le fichier des indicateurs dans votre répertoire et que le chemin d'accès au fichier dans le code est modifié en fonction du chemin d'accès contenant ce fichier.
 
-L'outil de visualisation a été conçu en R, il utilise le package Rshiny. Par conséquent, avant d'exécuter et d'éditer le code, assurez-vous que les paquets suivants sont installés (Veuillez-exécuter le fichier installation_de_paquets) :
+### **L'Application Cartographique**
 
-install.packages("raster")
-install.packages("sp")
-install.packages("tmap")
-install.packages("sf")
-install.packages("dplyr")
-install.packages("here")
-install.packages("readr")
-install.packages("readxl")
-install.packages("shiny")
-install.packages("leaflet")
-install.packages("RColorBrewer")
-install.packages("rmapshaper")
-install.packages("shinythemes")
+Lors de l'exécution de l'outil de visualisation, veuillez vous assurer que vous avez téléchargé le fichier des indicateurs dans votre répertoire et que le chemin d'accès au fichier dans le code est modifié en fonction du chemin d'accès contenant ce fichier. L'outil de visualisation a été conçu en R, il utilise le package Rshiny.
 
-En outre, veuillez vous assurer que les fichiers de forme IRIS, communaux, départementaux et régionaux produits par l'INSEE se trouvent dans votre répertoire de travail. Ceux-ci se trouvent dans le dossier shapefiles (Note : pour plus d'informations sur la structure, veuillez consulter la section sur la structure des fichiers ci-dessous).
+Prenons un exemple pour expliciter le fonctionnement de l'application cartographique : 
 
-### **Utilisation**
-
-Prenons un exemple pour expliciter l'utilisation de l'outil. Un utilisateur souhaite connaître l’indicateur de couvert forestier à l'echelle départementale à travers la France métropolitaine. 
-
-L’utilisateur sélectionne donc :
+1) Un utilisateur souhaite connaître l’indicateur de couvert forestier à l'echelle départementale à travers la France métropolitaine. L’utilisateur sélectionne donc :
  
 * Choisir un déterminant : Température
 * Choisir un indicateur : Couvert Forestier
-* Choisir une échelle : Departement
+* Choisir une échelle : Département
 
-Et si un utilisateur souhaite connaître l’indicateur de couvert forestier à l'echelle communale dans un département (par example L'Essonne) et puis focaliser sur une commune (Palaiseau). 
-
-L’utilisateur sélectionne donc :
+2) Un utilisateur souhaite connaître l’indicateur de couvert forestier à l'échelle communale (ex: Palaiseau). L’utilisateur sélectionne donc :
  
 * Choisir un déterminant : Température
 * Choisir un indicateur : Couvert Forestier
@@ -96,17 +70,14 @@ L’utilisateur sélectionne donc :
 * Choisir département à visualiser : Essonne
 * Choisir localisation : Palaiseau
 
-#### Carte
+La cartographie utilise un dégradé de couleurs pour représenter l'indicateur sélectionné à la résolution spatiale choisie. Les valeurs les plus basses (dans l'un des sept intervalles possibles) sont affichées en violet, et les valeurs les plus élevées en jaune.
 
-La cartographie est un graphique en gradient de l'indicateur sélectionné à la résolution spatiale choisie, allant de la valeur la plus basse dans l'intervalle des sept intervalles possibles correspondant au violet, jusqu'à la valeur maximale représentée en jaune. 
 
 ### **Limites de l'outil**
 
-#### 1 - Données manquantes à une résolution spatiale
-Par example, les iris n’ayant pas de données sont ceux où la population présente est faible et/ou des données Insee sont manquantes.  
 
-#### 2 - Qualité des données 
-Pour certains territoires et indicateurs, il peut y avoir des anomalies dans les données et c'est pourquoi il est nécessaire d’avoir une connaissance ou expertise locale permettant de remarquer l’apparition de certaines anomalies. 
+Pour certains indicateurs, des données sont manquantes, notamment au niveau IRIS, en raison du secret statistique lié à une faible population dans la maille d'analyse. De plus, une expertise ou une connaissance locale peut parfois mettre en évidence des anomalies résultant de collecte de données parfois incomplète lors des étapes précédentes à la construction des indicateurs.
+
 
 ### **Structure des fichiers**
 ```
@@ -146,11 +117,4 @@ Sofia Vaca - sofia.vaca@polytechnique.edu
 
 Nous tenons à remercier l'équipe d'ECOLAB pour avoir proposé ce défi et pour toute l'aide apportée au cours du développement de cet outil. Nous remercions en particulier Paul Grignon et Theo Sigiscar pour le temps qu'ils nous ont consacré et les conseils qu'ils nous ont prodigués tout au long de ce projet. Par ailleurs, ce projet a été réalisé dans le cadre du MSc&T in Data and Economics for Public Policy et nous tenons à remercier nos directeurs de master, Pierre Boyer et Franck Malherbet, pour avoir organisé ce challenge avec ECOLAB et pour leur soutien constant.
 
-### **Liens de l'outil du GD4H**
 
-Lors du Challenge Green Data for Health organisé par l'Ecolab du Commissariat général au développement durable en 2023, un premier outil a été développé pour aider les acteurs du territoire à identifier les inégalités sociales de leurs territoires.
-
-Bien que notre outil ait été défini indépendamment de l'outil développé dans le cadre de GD4H, cet outil a fourni un point de référence solide pour la structure du projet et s'est appuyé sur l'objectif général d'aider les acteurs locaux à comprendre les performances de leurs régions sur différents indicateurs. 
-
-[Urbasante Tool from GD4H Challenge - Urbasanté](https://urbasante.shinyapps.io/indic_urbasante/)
-[GD4H Challenge - Urbasanté](https://gitlab.com/data-challenge-gd4h)
