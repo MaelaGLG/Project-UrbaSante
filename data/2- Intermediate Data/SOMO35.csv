@@ -1,0 +1,293 @@
+nom site,SOMO35 Subscore_x,Organisme,code zas,Zas,code site,type d'implantation,Polluant,type d'influence,Réglementaire,type d'évaluation,type de valeur,valeur,valeur brute,unité de mesure,taux de saisie,couverture temporelle,couverture de données,code qualité,validité,Latitude,Longitude
+BREST Plouzané,4879.3,AIR BREIZH,FR53ZAR01,ZAR BREST,FR19016,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,81.9,81.85,µg-m3,100.0,100,100.0,A,1,48.359444,-4.568055
+Brest Mace,4484.3,AIR BREIZH,FR53ZAR01,ZAR BREST,FR19012,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,83.6,83.625,µg-m3,100.0,100,100.0,A,1,48.38618,-4.4866
+Kergoff,3522.8,AIR BREIZH,FR53ZRE01,ZR BRETAGNE,FR19020,Rurale nationale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,75.4,75.375,µg-m3,100.0,100,100.0,A,1,48.261963,-2.943631
+Lorient B. Bissonnet,5152.1,AIR BREIZH,FR53ZRE01,ZR BRETAGNE,FR19032,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,83.1,83.1,µg-m3,100.0,100,100.0,A,1,47.7425,-3.39501
+MORDELLES BELLAIS,2961.4,AIR BREIZH,FR53ZAG01,ZAG RENNES,FR19018,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,68.5,68.475,µg-m3,100.0,100,100.0,A,1,48.082883,-1.834583
+Quimper Zola,4951.5,AIR BREIZH,FR53ZRE01,ZR BRETAGNE,FR19053,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,80.1,80.125,µg-m3,100.0,100,100.0,A,1,47.986606,-4.097658
+Rennes Thabor,4249.2,AIR BREIZH,FR53ZAG01,ZAG RENNES,FR19039,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,78.5,78.5,µg-m3,100.0,100,100.0,A,1,48.11521,-1.673088
+Saint Brieuc Balzac,2482.2,AIR BREIZH,FR53ZRE01,ZR BRETAGNE,FR19061,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,74.2,74.2,µg-m3,100.0,100,100.0,A,1,48.51351,-2.74953
+StMalo Rocabey,3921.3,AIR BREIZH,FR53ZRE01,ZR BRETAGNE,FR19082,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,83.2,83.2,µg-m3,100.0,100,100.0,A,1,48.65306,-2.00268
+Vannes UTA,4854.3,AIR BREIZH,FR53ZRE01,ZR BRETAGNE,FR19033,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,78.9,78.85,µg-m3,100.0,100,100.0,R,1,47.64892,-2.76399
+APPENTIS,4948.4,AIR PAYS DE LA LOIRE,FR52ZAR01,ZAR ANGERS-LOIRE,FR23150,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,70.4,70.375,µg-m3,100.0,100,100.0,A,1,47.44739,-0.550067
+CIM BOUTEILLERIE,4771.4,AIR PAYS DE LA LOIRE,FR52ZAG01,ZAG NANTES-SAINT-NAZAIRE,FR23188,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,66.2,66.15,µg-m3,100.0,100,100.0,A,1,47.2225,-1.5375
+CLOS DES BEAUVAIS,5758.6,AIR PAYS DE LA LOIRE,FR52ZAR01,ZAR ANGERS-LOIRE,FR23175,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,68.8,68.775,µg-m3,100.0,100,100.0,A,1,47.430164,-0.610064
+DELACROIX,5081.6,AIR PAYS DE LA LOIRE,FR52ZRE01,ZR PAYS-DE-LA-LOIRE,FR23152,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,74.2,74.175,µg-m3,100.0,100,100.0,A,1,46.6607,-1.436831
+EPINETTES,5578.6,AIR PAYS DE LA LOIRE,FR52ZAG01,ZAG NANTES-SAINT-NAZAIRE,FR23157,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,77.6,77.575,µg-m3,100.0,100,100.0,A,1,47.146088,-1.690269
+Fillé,4984.7,AIR PAYS DE LA LOIRE,FR52ZRE01,ZR PAYS-DE-LA-LOIRE,FR23163,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,69.4,69.425,µg-m3,100.0,100,100.0,A,1,47.92192,0.151825
+GASPARD,5632.5,AIR PAYS DE LA LOIRE,FR52ZAG01,ZAG NANTES-SAINT-NAZAIRE,FR23230,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,80.0,80.0,µg-m3,100.0,100,100.0,A,1,47.253056,-2.332067
+LA TARDIERE,3810.2,AIR PAYS DE LA LOIRE,FR52ZRE01,ZR PAYS-DE-LA-LOIRE,FR23124,Rurale nationale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,60.3,60.325,µg-m3,100.0,100,100.0,A,1,46.656685,-0.743681
+LEON BLUM,5432.3,AIR PAYS DE LA LOIRE,FR52ZAG01,ZAG NANTES-SAINT-NAZAIRE,FR23110,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,80.1,80.075,µg-m3,100.0,100,100.0,A,1,47.26412,-2.249858
+MAZAGRAN,4620.3,AIR PAYS DE LA LOIRE,FR52ZAR03,ZAR LAVAL,FR23123,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,73.9,73.9,µg-m3,100.0,100,100.0,A,1,48.06943,-0.767692
+SAINT EXUPERY,5583.0,AIR PAYS DE LA LOIRE,FR52ZRE01,ZR PAYS-DE-LA-LOIRE,FR23078,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,73.4,73.425,µg-m3,100.0,100,100.0,A,1,47.054443,-0.886111
+SAINT-DENIS D'ANJOU,4676.0,AIR PAYS DE LA LOIRE,FR52ZRE01,ZR PAYS-DE-LA-LOIRE,FR23177,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.9,71.875,µg-m3,100.0,100,100.0,A,1,47.78773,-0.444044
+SOURCES,4956.5,AIR PAYS DE LA LOIRE,FR52ZAR02,ZAR LE-MANS,FR23182,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.2,71.2,µg-m3,100.0,100,100.0,A,1,47.971066,0.221422
+CERGY-PONTOISE,5683.6,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04023,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,62.5,62.5,µg-m3,100.0,100,100.0,A,1,49.04639,2.043056
+CHAMPIGNY-SUR-MARNE,5100.9,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04101,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,54.2,54.2,µg-m3,100.0,100,100.0,A,1,48.816387,2.5175
+LES ULIS,5859.2,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04049,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,59.7,59.65,µg-m3,100.0,100,100.0,R,1,48.679443,2.165556
+LOGNES,5360.6,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04098,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,56.4,56.4,µg-m3,100.0,100,100.0,R,1,48.84028,2.635278
+MANTES-LA-JOLIE,4527.9,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04063,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,56.9,56.85,µg-m3,100.0,100,100.0,R,1,48.9964,1.7033
+MELUN,3777.3,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04069,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,54.6,54.6,µg-m3,100.0,100,100.0,A,1,48.54139,2.661389
+MONTGERON,4906.3,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04149,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,54.3,54.25,µg-m3,100.0,100,100.0,A,1,48.7067,2.4572
+NEUILLY-SUR-SEINE,4459.2,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04017,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,56.2,56.15,µg-m3,100.0,100,100.0,R,1,48.88139,2.278056
+PARIS 13eme,4813.5,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04037,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,52.9,52.85,µg-m3,100.0,100,100.0,A,1,48.82861,2.360278
+PARIS 18eme,4441.2,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04004,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,57.0,56.95,µg-m3,100.0,100,100.0,A,1,48.891666,2.346667
+PARIS 1er Les Halles,4222.4,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04055,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,51.1,51.1,µg-m3,100.0,100,100.0,R,1,48.86212,2.344616
+RAMBOUILLET,5720.2,AIRPARIF,FR11ZRE01,ZR ILE-DE-FRANCE,FR04181,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,58.6,58.6,µg-m3,100.0,100,100.0,A,1,48.63373,1.830529
+TREMBLAY-EN-FRANCE,5071.3,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04319,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,56.6,56.55,µg-m3,100.0,100,100.0,A,1,48.95555,2.575278
+VERSAILLES,3809.6,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04029,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,60.0,60.0,µg-m3,100.0,100,100.0,R,1,48.799168,2.130556
+VILLEMOMBLE,4746.7,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04100,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,53.8,53.8,µg-m3,100.0,100,100.0,R,1,48.881947,2.507222
+VITRY-SUR-SEINE,5617.6,AIRPARIF,FR11ZAG01,ZAG PARIS,FR04034,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,55.1,55.1,µg-m3,100.0,100,100.0,A,1,48.775897,2.375788
+Zone Rurale Est,4656.5,AIRPARIF,FR11ZRE01,ZR ILE-DE-FRANCE,FR04324,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,57.9,57.85,µg-m3,100.0,100,100.0,R,1,48.761665,3.058333
+Zone Rurale NO,5360.2,AIRPARIF,FR11ZRE01,ZR ILE-DE-FRANCE,FR04158,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,63.8,63.75,µg-m3,100.0,100,100.0,R,1,49.063087,1.866381
+Zone Rurale Nord,5910.4,AIRPARIF,FR11ZRE01,ZR ILE-DE-FRANCE,FR04048,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,62.8,62.8,µg-m3,100.0,100,100.0,A,1,49.100277,2.343889
+Zone Rurale Nord-Est,4584.8,AIRPARIF,FR11ZRE01,ZR ILE-DE-FRANCE,FR04142,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,58.1,58.05,µg-m3,100.0,100,100.0,R,1,49.028057,2.750278
+Zone Rurale SE,5358.2,AIRPARIF,FR11ZRE01,ZR ILE-DE-FRANCE,FR04328,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,57.1,57.05,µg-m3,100.0,100,100.0,A,1,48.3547,2.6453
+Zone Rurale SO,5397.3,AIRPARIF,FR11ZRE01,ZR ILE-DE-FRANCE,FR04038,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,59.0,58.95,µg-m3,100.0,100,100.0,A,1,48.581944,1.883333
+Zone rurale Sud,5454.8,AIRPARIF,FR11ZRE01,ZR ILE-DE-FRANCE,FR04066,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,57.5,57.45,µg-m3,100.0,100,100.0,A,1,48.364166,2.236944
+ANNEMASSE,6328.1,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAR01,ZAR PAYS-DE-SAVOIE,FR33211,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,49.1,49.125,µg-m3,100.0,100,100.0,A,1,46.19583,6.240556
+Albertville,6255.0,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAR04,ZAR VALLEE-DE-LA-TARANTAISE,FR33121,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,34.1,34.125,µg-m3,100.0,100,100.0,R,1,45.675,6.389722
+Aurillac-Lagarde,6124.0,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR07052,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,76.3,76.3,µg-m3,100.0,100,100.0,R,1,44.92008,2.441082
+Bourg-en-Bresse,7543.5,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR33305,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,71.3,71.275,µg-m3,100.0,100,100.0,A,1,46.211666,5.226389
+Bourgoin-Jallieu,5540.9,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG01,ZAG LYON,FR27007,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,72.9,72.9,µg-m3,100.0,100,100.0,R,1,45.60822,5.270872
+CHAMBERY LE HAUT,6763.7,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAR01,ZAR PAYS-DE-SAVOIE,FR33102,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,61.8,61.8,µg-m3,100.0,100,100.0,R,1,45.59667,5.918611
+CHAMONIX,3858.2,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAR03,ZAR VALLEE-DE-L-ARVE,FR33120,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,6.4,6.4,µg-m3,100.0,100,100.0,A,1,45.9225,6.87
+COTIERE AIN,6837.3,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG01,ZAG LYON,FR20047,Périurbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,71.9,71.875,µg-m3,100.0,100,100.0,A,1,45.823223,4.953958
+Champ sur Drac,7187.8,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG02,ZAG GRENOBLE,FR15013,Périurbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,69.4,69.425,µg-m3,100.0,100,100.0,A,1,45.07954,5.728653
+Drôme Rurale Sud-SND,6673.1,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR36021,Rurale nationale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,69.4,69.425,µg-m3,100.0,100,100.0,A,1,44.569443,5.278972
+GAILLARD,6921.4,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAR01,ZAR PAYS-DE-SAVOIE,FR33212,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,57.8,57.775,µg-m3,100.0,100,100.0,A,1,46.19369,6.214858
+GERLAND,4755.0,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG01,ZAG LYON,FR20017,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,60.5,60.5,µg-m3,100.0,100,100.0,A,1,45.73529,4.829794
+Grenoble Les Frenes,4812.4,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG02,ZAG GRENOBLE,FR15043,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.2,71.225,µg-m3,100.0,100,100.0,A,1,45.1619,5.7356
+Grenoble PeriurbSud,6355.2,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG02,ZAG GRENOBLE,FR15045,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,72.6,72.625,µg-m3,100.0,100,100.0,A,1,45.0578,5.6767
+Gresivaudan Periurb,7399.9,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG02,ZAG GRENOBLE,FR15048,Périurbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,47.4,47.425,µg-m3,100.0,100,100.0,A,1,45.2797,5.8822
+HAUT BEAUJOLAIS,5894.4,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR20049,Rurale près des villes,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,86.2,86.15,µg-m3,100.0,100,100.0,A,1,45.96141,4.465711
+Jardin Lecoq,6328.7,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG04,ZAG CLERMONT-FERRAND,FR07009,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,70.1,70.075,µg-m3,100.0,100,100.0,A,1,45.772167,3.0875
+LA TALAUDIERE,7448.3,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG03,ZAG SAINT-ETIENNE,FR29439,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,68.3,68.275,µg-m3,100.0,100,100.0,A,1,45.481777,4.429667
+LOVERCHY,4813.9,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAR01,ZAR PAYS-DE-SAVOIE,FR33201,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,56.7,56.7,µg-m3,100.0,100,100.0,A,1,45.89528,6.118333
+LYON Centre,4781.6,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG01,ZAG LYON,FR20062,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.0,71.025,µg-m3,100.0,100,100.0,R,1,45.757732,4.854214
+Le Puy-Causans,7069.2,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR07054,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,80.1,80.05,µg-m3,100.0,100,100.0,R,1,45.039001,3.887001
+Les Ménuires,9739.1,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR47127,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,91.9,91.85,µg-m3,50.0,100,50.0,N,-1,45.318773,6.57839
+Montferrand,6072.5,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG04,ZAG CLERMONT-FERRAND,FR07004,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,72.0,71.975,µg-m3,100.0,100,100.0,R,1,45.79728,3.113833
+Montluçon,5745.8,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR07058,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,72.5,72.525,µg-m3,100.0,100,100.0,A,1,46.340723,2.593945
+Moulins Centre,6416.2,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR07057,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,72.0,71.975,µg-m3,100.0,100,100.0,A,1,46.5619722,3.340638889
+NOVEL,5505.0,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAR01,ZAR PAYS-DE-SAVOIE,FR33202,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,53.2,53.225,µg-m3,100.0,100,100.0,A,1,45.916943,6.135556
+PASSY,6315.9,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAR03,ZAR VALLEE-DE-L-ARVE,FR33220,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,50.3,50.325,µg-m3,100.0,100,100.0,A,1,45.92361,6.713611
+PASTEUR,4923.2,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAR01,ZAR PAYS-DE-SAVOIE,FR33101,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,17.7,17.725,µg-m3,100.0,100,100.0,A,1,45.56472,5.928333
+Paray le Fresil,6129.5,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR07022,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,68.3,68.3,µg-m3,100.0,100,100.0,A,1,46.652668,3.600667
+Pays du Mezenc,7497.8,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR07056,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.8,71.8,µg-m3,96.0,100,96.0,A,1,44.98377,4.226006
+Plateau de Bonnevaux,8811.6,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR27010,Rurale près des villes,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,76.8,76.775,µg-m3,100.0,100,100.0,R,1,45.4609,5.181081
+ROANNE,5312.2,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR29423,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,58.8,58.825,µg-m3,100.0,100,100.0,A,1,46.04111,4.074656
+ROCHES DE CONDRIEU,8036.7,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR27003,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,72.5,72.45,µg-m3,100.0,100,100.0,A,1,45.454517,4.766528
+ROUSSILLON,6902.9,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAR02,ZAR VALLEE-DU-RHONE,FR27002,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,72.3,72.325,µg-m3,100.0,100,100.0,A,1,45.36782,4.805147
+Rageade,7421.9,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR07031,Rurale régionale,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,80.5,80.475,µg-m3,100.0,100,100.0,A,1,45.10472,3.277361
+Riom Périurbaine,6821.2,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG04,ZAG CLERMONT-FERRAND,FR07061,Périurbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,60.3,60.325,µg-m3,100.0,100,100.0,A,1,45.89674,3.122254
+Romans-sur-Isère,6706.9,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAR02,ZAR VALLEE-DU-RHONE,FR36019,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,62.0,61.95,µg-m3,100.0,100,100.0,A,1,45.0425,5.0443
+Royat Périurbaine,7334.8,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG04,ZAG CLERMONT-FERRAND,FR07060,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,80.4,80.35,µg-m3,100.0,100,100.0,R,1,45.764111,3.046111
+SAINT ETIENNE SUD,6317.0,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG03,ZAG SAINT-ETIENNE,FR29424,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,68.8,68.8,µg-m3,100.0,100,100.0,A,1,45.42009,4.395422
+SAINT EXUPERY,6766.7,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG01,ZAG LYON,FR20048,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,70.9,70.925,µg-m3,100.0,100,100.0,A,1,45.7533,5.0722
+SAINT JEAN,6673.1,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR33111,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,59.4,59.35,µg-m3,100.0,100,100.0,A,1,45.274723,6.349722
+SAINT-CHAMOND,7566.4,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG03,ZAG SAINT-ETIENNE,FR29426,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,74.1,74.1,µg-m3,100.0,100,100.0,R,1,45.475327,4.515003
+Sablons,7586.6,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAR02,ZAR VALLEE-DU-RHONE,FR27005,Périurbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,72.6,72.6,µg-m3,100.0,100,100.0,A,1,45.321845,4.770702
+St Germain/Rhône,6053.2,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR33302,Rurale près des villes,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,55.6,55.625,µg-m3,100.0,100,100.0,A,1,46.072224,5.820833
+St Martin d'Heres,4412.0,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG02,ZAG GRENOBLE,FR15038,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,74.6,74.575,µg-m3,100.0,100,100.0,A,1,45.1828,5.7531
+TERNAY,7687.6,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG01,ZAG LYON,FR20037,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,76.1,76.05,µg-m3,100.0,100,100.0,A,1,45.6019,4.8022
+VAULX EN VELIN,5970.0,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG01,ZAG LYON,FR20046,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,71.4,71.4,µg-m3,100.0,100,100.0,A,1,45.7789,4.9247
+Valence Périurb. Sud,7516.7,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAR02,ZAR VALLEE-DU-RHONE,FR36001,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,61.0,60.95,µg-m3,100.0,100,100.0,R,1,44.870243,4.876289
+Valence Urb. Centre,2484.3,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAR02,ZAR VALLEE-DU-RHONE,FR36002,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,40.4,40.35,µg-m3,8.0,100,8.0,N,-1,44.933514,4.893481
+Vichy,5788.4,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZRE02,ZR AUVERGNE-RHONE-ALPES,FR07059,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,73.7,73.7,µg-m3,100.0,100,100.0,A,1,46.130431,3.425694
+Villefranche Centre ,3965.2,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG01,ZAG LYON,FR20077,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,59.6,59.55,µg-m3,100.0,100,100.0,A,1,45.990112,4.715566
+Voiron Urbain,6010.6,ATMO AUVERGNE-RHÔNE-ALPES,FR84ZAG02,ZAG GRENOBLE,FR15018,Urbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,45.2,45.175,µg-m3,100.0,100,100.0,A,1,45.360176,5.589419
+Auxerre,6908.0,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZRE01,ZR BOURGOGNE-FRANCHE-COMTE,FR26019,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,78.4,78.4,µg-m3,100.0,100,100.0,A,1,47.800575,3.576189
+Besancon Prevoyance,7390.6,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZAR03,ZAR BESANCON,FR82006,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,72.8,72.825,µg-m3,100.0,100,100.0,A,1,47.2474,6.015419
+Champforgueil,6089.0,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZAR04,ZAR CHALON,FR32002,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,64.4,64.375,µg-m3,100.0,100,100.0,A,1,46.821056,4.835083
+Daix,7248.4,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZAR02,ZAR DIJON,FR26010,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.3,71.3,µg-m3,100.0,100,100.0,A,1,47.3456,5.002377
+Dambenois Citoyen,7170.2,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZAR01,ZAR BELFORT-MONTBELIARD,FR82012,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,64.3,64.25,µg-m3,100.0,100,100.0,A,1,47.538193,6.868361
+Dijon Péjoces,6388.9,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZAR02,ZAR DIJON,FR26005,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.6,71.55,µg-m3,100.0,100,100.0,A,1,47.307368,5.065881
+Dole centre,6388.1,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZRE01,ZR BOURGOGNE-FRANCHE-COMTE,FR82040,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,70.3,70.325,µg-m3,100.0,100,100.0,A,1,47.09672,5.496389
+Lons-le-Saunier CV,7688.3,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZRE01,ZR BOURGOGNE-FRANCHE-COMTE,FR82050,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,76.0,76.0,µg-m3,100.0,100,100.0,A,1,46.671321,5.55662
+Macon Paul Bert,6970.3,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZRE01,ZR BOURGOGNE-FRANCHE-COMTE,FR32006,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,74.8,74.75,µg-m3,100.0,100,100.0,A,1,46.316172,4.839994
+Montandon Baresans,5398.7,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZRE01,ZR BOURGOGNE-FRANCHE-COMTE,FR82030,Rurale nationale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,78.8,78.775,µg-m3,100.0,100,100.0,A,1,47.29464,6.825861
+Montbéliard centre,5845.9,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZAR01,ZAR BELFORT-MONTBELIARD,FR82010,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,53.8,53.825,µg-m3,100.0,100,100.0,R,1,47.510307,6.794
+Montceau-les-Mines 9me écluse,6037.7,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZRE01,ZR BOURGOGNE-FRANCHE-COMTE,FR32005,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,66.3,66.3,µg-m3,100.0,100,100.0,A,1,46.678785,4.366893
+Montfaucon,8408.7,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZAR03,ZAR BESANCON,FR82005,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,77.7,77.65,µg-m3,100.0,100,100.0,A,1,47.23461,6.076472
+Morvan,7131.7,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZRE01,ZR BOURGOGNE-FRANCHE-COMTE,FR26012,Rurale nationale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,75.3,75.325,µg-m3,100.0,100,100.0,A,1,47.274762,4.099476
+Nevers,5586.9,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZRE01,ZR BOURGOGNE-FRANCHE-COMTE,FR26017,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,68.0,67.95,µg-m3,100.0,100,100.0,A,1,46.996828,3.171092
+Sens,358.1,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZRE01,ZR BOURGOGNE-FRANCHE-COMTE,FR26016,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,57.2,57.2,µg-m3,54.0,100,54.0,N,-1,48.200436,3.2773
+Vesoul Pres Caillet,6736.6,ATMO BOURGOGNE-FRANCHE-COMTE,FR27ZRE01,ZR BOURGOGNE-FRANCHE-COMTE,FR82060,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.4,71.375,µg-m3,100.0,100,100.0,A,1,47.620022,6.157642
+BETHENY,5714.9,ATMO GRAND EST,FR44ZAR01,ZAR REIMS,FR14010,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,59.5,59.475,µg-m3,100.0,100,100.0,R,1,49.28222,4.051111
+CHALONS,5261.7,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR14022,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,59.6,59.6,µg-m3,100.0,100,100.0,R,1,48.962223,4.36
+CHARLEVILLE,5039.7,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR14051,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,56.5,56.45,µg-m3,100.0,100,100.0,R,1,49.745277,4.719167
+Capitainerie,5548.3,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR14029,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,62.2,62.225,µg-m3,100.0,100,100.0,A,1,48.7266,4.594781
+Colmar Sud,7667.9,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR16064,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,55.7,55.675,µg-m3,96.0,100,96.0,A,1,48.065414,7.333139
+Donon Vosges Moyennes 2,5855.0,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR16302,Rurale nationale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,73.7,73.7,µg-m3,100.0,100,100.0,A,1,48.492992,7.1298
+Epinal,4326.4,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR30019,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,60.5,60.5,µg-m3,100.0,100,100.0,A,1,48.17278,6.452811
+Haguenau-Place marché aux bestiaux,7011.8,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR42011,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,62.2,62.225,µg-m3,100.0,100,100.0,A,1,48.818352,7.786409
+Jean d Aulan,4632.4,ATMO GRAND EST,FR44ZAR01,ZAR REIMS,FR14012,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,57.6,57.6,µg-m3,100.0,100,100.0,R,1,49.224167,4.020556
+Jonville en Woevre,6778.4,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR30033,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,61.9,61.875,µg-m3,96.0,100,96.0,A,1,49.06583,5.785556
+Metz-Centre,4833.9,ATMO GRAND EST,FR44ZAG02,ZAG METZ,FR01011,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,58.9,58.9,µg-m3,100.0,100,100.0,A,1,49.119442,6.180833
+Mulhouse Est,6636.8,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR16065,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,64.9,64.85,µg-m3,100.0,100,100.0,A,1,47.723106,7.341603
+Mulhouse Sud 2,6314.7,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR16066,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,57.4,57.425,µg-m3,100.0,100,100.0,A,1,47.737415,7.309075
+Nancy-Brabois 2,6336.1,ATMO GRAND EST,FR44ZAG03,ZAG NANCY,FR30037,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,65.7,65.7,µg-m3,100.0,100,100.0,A,1,48.656944,6.136022
+Nancy-Charles III,5135.1,ATMO GRAND EST,FR44ZAG03,ZAG NANCY,FR30034,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,62.3,62.3,µg-m3,100.0,100,100.0,R,1,48.68817,6.190431
+Nord-Est Alsace,6107.7,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR16017,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,60.0,59.975,µg-m3,100.0,100,100.0,A,1,48.919357,8.158458
+REVIN,4567.2,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR14008,Rurale nationale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,55.5,55.525,µg-m3,100.0,100,100.0,A,1,49.90778,4.63
+ST PARRES AUX TERTRE,4681.6,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR14032,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,54.9,54.925,µg-m3,100.0,100,100.0,R,1,48.299168,4.117222
+STE SAVINE,5.4,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR14033,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,47.7,47.675,µg-m3,100.0,100,100.0,A,1,48.295002,4.050278
+Schlucht,5907.8,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR30028,Rurale près des villes,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,77.5,77.45,µg-m3,100.0,100,100.0,A,1,48.051117,7.011114
+Scy-Chazelles,6198.9,ATMO GRAND EST,FR44ZAG02,ZAG METZ,FR01018,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,73.1,73.125,µg-m3,100.0,100,100.0,A,1,49.107502,6.122775
+St DIZIER L. Michel,5072.7,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR14042,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,65.4,65.4,µg-m3,100.0,100,100.0,A,1,48.645836,4.966111
+Station de FORBACH,6771.7,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR22054,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,67.6,67.6,µg-m3,96.0,100,96.0,A,1,49.18742,6.910867
+Strasbourg Nord,6426.2,ATMO GRAND EST,FR44ZAG01,ZAG STRASBOURG,FR16029,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,50.9,50.85,µg-m3,100.0,100,100.0,A,1,48.610363,7.781631
+Strasbourg Sud 2,6577.9,ATMO GRAND EST,FR44ZAG01,ZAG STRASBOURG,FR16041,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,49.1,49.1,µg-m3,100.0,100,100.0,A,1,48.5157,7.687819
+Thionville-Centre,0.0,ATMO GRAND EST,FR44ZAG02,ZAG METZ,FR01020,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,56.2,56.175,µg-m3,100.0,100,100.0,R,1,49.358337,6.156942
+Thionville-Garche,7126.4,ATMO GRAND EST,FR44ZAG02,ZAG METZ,FR01021,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,68.4,68.375,µg-m3,54.0,100,54.0,N,-1,49.394444,6.201392
+Vosges du Nord,7110.3,ATMO GRAND EST,FR44ZRE01,ZR GRAND-EST,FR16031,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,67.8,67.8,µg-m3,100.0,100,100.0,A,1,48.85731,7.314175
+Arrest,4684.4,ATMO HAUTS DE FRANCE,FR32ZRE01,ZR HAUTS-DE-FRANCE,FR18039,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,73.4,73.43333,µg-m3,100.0,100,100.0,R,1,50.129448,1.610833
+Bethune Stade,3753.4,ATMO HAUTS DE FRANCE,FR32ZAG01,ZAG BLDV,FR28028,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,19.2,19.225,µg-m3,38.0,100,38.0,N,-1,50.535385,2.635692
+Calais Parmentier,3966.3,ATMO HAUTS DE FRANCE,FR32ZAR01,ZAR COTE-D-OPALE,FR10026,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,79.4,79.43333,µg-m3,100.0,100,100.0,R,1,50.9578,1.89008
+Campagne les B.,3676.4,ATMO HAUTS DE FRANCE,FR32ZRE01,ZR HAUTS-DE-FRANCE,FR10132,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,79.3,79.26667,µg-m3,100.0,100,100.0,R,1,50.61048,1.99145
+Cappelle la Grande,4358.1,ATMO HAUTS DE FRANCE,FR32ZAR01,ZAR COTE-D-OPALE,FR10029,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,82.0,82.0,µg-m3,100.0,100,100.0,R,1,50.99594,2.36627
+Cartignies,4364.3,ATMO HAUTS DE FRANCE,FR32ZRE01,ZR HAUTS-DE-FRANCE,FR06133,Rurale près des villes,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,56.4,56.4,µg-m3,100.0,100,100.0,R,1,50.09225,3.85003
+Denain Villars,4726.3,ATMO HAUTS DE FRANCE,FR32ZAG01,ZAG BLDV,FR06011,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,61.8,61.75,µg-m3,100.0,100,100.0,R,1,50.32276,3.39593
+Douai Theuriet,4300.5,ATMO HAUTS DE FRANCE,FR32ZAG01,ZAG BLDV,FR06003,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,59.8,59.75,µg-m3,100.0,100,100.0,R,1,50.37822,3.06586
+Faiencerie Creil,4665.3,ATMO HAUTS DE FRANCE,FR32ZAR03,ZAR CREIL,FR18043,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,58.5,58.45,µg-m3,100.0,100,100.0,R,1,49.259552,2.474397
+Halluin stade,4009.9,ATMO HAUTS DE FRANCE,FR32ZAG02,ZAG LILLE,FR11026,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,60.6,60.575,µg-m3,50.0,100,50.0,N,-1,50.775482,3.12568
+Harnes Serres,4640.0,ATMO HAUTS DE FRANCE,FR32ZAG01,ZAG BLDV,FR28010,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,58.0,58.0,µg-m3,100.0,100,100.0,R,1,50.44914,2.9
+Marcq CTM,296.0,ATMO HAUTS DE FRANCE,FR32ZAG02,ZAG LILLE,FR11016,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.0,70.96667,µg-m3,100.0,100,100.0,R,1,50.67003,3.07656
+Maubeuge Joyeuse,3603.3,ATMO HAUTS DE FRANCE,FR32ZRE01,ZR HAUTS-DE-FRANCE,FR06007,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,62.2,62.175,µg-m3,100.0,100,100.0,R,1,50.27936,3.97691
+Neuilly-Saint-Front,4024.9,ATMO HAUTS DE FRANCE,FR32ZRE01,ZR HAUTS-DE-FRANCE,FR18057,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,57.7,57.7,µg-m3,100.0,100,100.0,R,1,49.174931,3.260819
+Noeux-les-Mines,4634.6,ATMO HAUTS DE FRANCE,FR32ZAG01,ZAG BLDV,FR28033,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,72.7,72.7,µg-m3,100.0,100,100.0,R,1,50.48972,2.66642
+Outreau,3933.1,ATMO HAUTS DE FRANCE,FR32ZAR01,ZAR COTE-D-OPALE,FR10032,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,76.6,76.6,µg-m3,100.0,100,100.0,R,1,50.69435,1.57657
+P. Roth St Quentin,3440.9,ATMO HAUTS DE FRANCE,FR32ZRE01,ZR HAUTS-DE-FRANCE,FR18042,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,58.3,58.3,µg-m3,100.0,100,100.0,R,1,49.851334,3.284
+Roye,3874.6,ATMO HAUTS DE FRANCE,FR32ZRE01,ZR HAUTS-DE-FRANCE,FR18045,Rurale près des villes,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,60.0,60.0,µg-m3,100.0,100,100.0,R,1,49.696697,2.801139
+Saint Amand,3810.7,ATMO HAUTS DE FRANCE,FR32ZAG01,ZAG BLDV,FR06134,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,58.9,58.875,µg-m3,100.0,100,100.0,R,1,50.45647,3.42794
+Salouel,3850.5,ATMO HAUTS DE FRANCE,FR32ZAR02,ZAR AMIENS,FR18035,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,65.6,65.625,µg-m3,100.0,100,100.0,R,1,49.86889,2.239806
+Sangatte,2125.2,ATMO HAUTS DE FRANCE,FR32ZAR01,ZAR COTE-D-OPALE,FR10025,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.1,71.1,µg-m3,100.0,100,100.0,R,1,50.94989,1.76917
+St Omer Ribot,2617.5,ATMO HAUTS DE FRANCE,FR32ZAR01,ZAR COTE-D-OPALE,FR10041,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,75.9,75.925,µg-m3,58.0,100,58.0,N,-1,50.74823,2.25978
+St Pierre Amiens,2667.7,ATMO HAUTS DE FRANCE,FR32ZAR02,ZAR AMIENS,FR18053,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,64.7,64.65,µg-m3,100.0,100,100.0,R,1,49.901667,2.304597
+St Pol mer - cheminots,3912.6,ATMO HAUTS DE FRANCE,FR32ZAR01,ZAR COTE-D-OPALE,FR10017,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,77.0,77.025,µg-m3,100.0,100,100.0,R,1,51.032761,2.332358
+St-Laurent-Blangy,4693.1,ATMO HAUTS DE FRANCE,FR32ZAR04,ZAR ARRAS,FR28022,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,60.4,60.375,µg-m3,100.0,100,100.0,R,1,50.30886,2.807369
+Tourcoing Houpline,4573.5,ATMO HAUTS DE FRANCE,FR32ZAG02,ZAG LILLE,FR11038,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,42.3,42.275,µg-m3,38.0,100,38.0,N,-1,50.733333,3.173611
+Valenciennes Acacias,4040.1,ATMO HAUTS DE FRANCE,FR32ZAG01,ZAG BLDV,FR06001,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,60.8,60.8,µg-m3,100.0,100,100.0,R,1,50.35853,3.50804
+Wattignies,3976.0,ATMO HAUTS DE FRANCE,FR32ZAG02,ZAG LILLE,FR11114,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,65.3,65.275,µg-m3,42.0,100,42.0,N,-1,50.59774,3.04946
+Alençon Météo-France,4800.4,ATMO NORMANDIE,FR28ZRE02,ZR NORMANDIE,FR21031,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,73.3,73.3,µg-m3,100.0,100,100.0,A,1,48.445553,0.110833
+Base loisirs Poses,5222.8,ATMO NORMANDIE,FR28ZRE02,ZR NORMANDIE,FR25049,Rurale près des villes,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,72.6,72.55,µg-m3,100.0,100,100.0,R,1,49.30487,1.214367
+Bures-en-bray,4383.5,ATMO NORMANDIE,FR28ZRE02,ZR NORMANDIE,FR25050,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,76.6,76.6,µg-m3,100.0,100,100.0,A,1,49.78122,1.345083
+Caen Chemin-Vert,3869.6,ATMO NORMANDIE,FR28ZAR02,ZAR CAEN,FR21001,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,75.0,74.95,µg-m3,100.0,100,100.0,A,1,49.19222,-0.391111
+Centre Hospitalier,4573.0,ATMO NORMANDIE,FR28ZAG01,ZAG ROUEN,FR25043,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,78.3,78.325,µg-m3,100.0,100,100.0,R,1,49.4005,1.099042
+Cherbourg Hotel de Ville,4297.2,ATMO NORMANDIE,FR28ZRE02,ZR NORMANDIE,FR21038,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,78.2,78.2,µg-m3,100.0,100,100.0,A,1,49.64225,-1.624361
+Dieppe Golf,6232.9,ATMO NORMANDIE,FR28ZRE02,ZR NORMANDIE,FR25055,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,73.8,73.775,µg-m3,100.0,100,100.0,R,1,49.920492,1.047892
+Espace du Palais,4240.9,ATMO NORMANDIE,FR28ZAG01,ZAG ROUEN,FR25036,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,72.7,72.725,µg-m3,92.0,100,92.0,R,1,49.442358,1.093789
+Evreux Centre,4599.6,ATMO NORMANDIE,FR28ZRE02,ZR NORMANDIE,FR25039,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,73.0,73.025,µg-m3,100.0,100,100.0,A,1,49.02134,1.148319
+Fécamp,4887.1,ATMO NORMANDIE,FR28ZRE02,ZR NORMANDIE,FR05088,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,81.5,81.5,µg-m3,100.0,100,100.0,A,1,49.75,0.4159
+Honfleur Sce Tech.,3853.3,ATMO NORMANDIE,FR28ZRE02,ZR NORMANDIE,FR05040,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,75.0,75.0,µg-m3,100.0,100,100.0,A,1,49.415108,0.2437
+IFS Caen sud,4764.3,ATMO NORMANDIE,FR28ZAR02,ZAR CAEN,FR21019,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,76.4,76.425,µg-m3,100.0,100,100.0,A,1,49.15167,-0.352778
+La Coulonche MERA,5182.8,ATMO NORMANDIE,FR28ZRE02,ZR NORMANDIE,FR21050,Rurale nationale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,75.2,75.2,µg-m3,100.0,100,100.0,A,1,48.645,-0.458333
+Le Havre Ec. Herriot,5368.4,ATMO NORMANDIE,FR28ZAR01,ZAR LE-HAVRE,FR05074,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,80.9,80.85,µg-m3,100.0,100,100.0,A,1,49.48963,0.100703
+Le Havre ville-haute,5745.7,ATMO NORMANDIE,FR28ZAR01,ZAR LE-HAVRE,FR05090,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,82.3,82.325,µg-m3,100.0,100,100.0,A,1,49.514686,0.100645
+Lisieux,4355.6,ATMO NORMANDIE,FR28ZRE02,ZR NORMANDIE,FR21021,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.5,71.525,µg-m3,100.0,100,100.0,A,1,49.147224,0.227222
+Maison Parc Brotonne,6383.3,ATMO NORMANDIE,FR28ZRE02,ZR NORMANDIE,FR05087,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,8.2,8.23333,µg-m3,8.0,100,8.0,N,-1,49.498295,0.758833
+Mesnil Esnard,5478.3,ATMO NORMANDIE,FR28ZAG01,ZAG ROUEN,FR25040,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,76.6,76.6,µg-m3,100.0,100,100.0,A,1,49.40619,1.15515
+Ouistreham,5038.6,ATMO NORMANDIE,FR28ZAR02,ZAR CAEN,FR21017,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,76.5,76.5,µg-m3,100.0,100,100.0,A,1,49.289444,-0.257778
+Saint-Lô Eglise,4650.1,ATMO NORMANDIE,FR28ZRE02,ZR NORMANDIE,FR21040,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,77.4,77.425,µg-m3,100.0,100,100.0,A,1,49.11639,-1.084722
+St Romain de Colbosc,3909.0,ATMO NORMANDIE,FR28ZAR01,ZAR LE-HAVRE,FR05010,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,74.7,74.675,µg-m3,100.0,100,100.0,A,1,49.528927,0.358733
+Touques,4277.3,ATMO NORMANDIE,FR28ZRE02,ZR NORMANDIE,FR05082,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,70.5,70.45,µg-m3,100.0,100,100.0,A,1,49.348,0.109253
+AIRVAULT - Stade Laillé,3908.3,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR09304,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,94.7,94.65,µg-m3,96.0,100,96.0,R,1,46.823796,-0.135634
+AIRVAULT 3,745.3,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR09304,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,68.1,68.05,µg-m3,100.0,100,100.0,R,1,46.823796,-0.135634
+AMBES,5827.2,ATMO NOUVELLE-AQUITAINE,FR75ZAG01,ZAG BORDEAUX,FR31010,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,50.7,50.725,µg-m3,100.0,100,100.0,R,1,45.014777,-0.533942
+Aytré,5484.4,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR09008,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,72.6,72.6,µg-m3,100.0,100,100.0,R,1,46.135134,-1.117086
+BASSENS,5575.9,ATMO NOUVELLE-AQUITAINE,FR75ZAG01,ZAG BORDEAUX,FR31007,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,51.3,51.25,µg-m3,100.0,100,100.0,A,1,44.900296,-0.515835
+BILLERE,5871.6,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR31013,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,73.6,73.625,µg-m3,100.0,100,100.0,R,1,43.310797,-0.391543
+BRIVE - Dalton,4727.4,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR35004,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,72.2,72.225,µg-m3,100.0,100,100.0,R,1,45.158738,1.537259
+Biarritz-hippodrome,5223.5,ATMO NOUVELLE-AQUITAINE,FR75ZAG02,ZAG BAYONNE,FR31043,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,78.6,78.575,µg-m3,100.0,100,100.0,R,1,43.470237,-1.553876
+DAX,4028.7,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR31036,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,72.9,72.875,µg-m3,100.0,100,100.0,A,1,43.704643,-1.038557
+GRAND PARC,5876.2,ATMO NOUVELLE-AQUITAINE,FR75ZAG01,ZAG BORDEAUX,FR31001,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,47.3,47.325,µg-m3,100.0,100,100.0,A,1,44.86121,-0.58037
+GUERET - Nicolas,5244.7,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR35005,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,75.6,75.625,µg-m3,100.0,100,100.0,R,1,46.17362,1.873024
+LA NOUAILLE - MERA,5501.2,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR35012,Rurale nationale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,74.8,74.775,µg-m3,100.0,100,100.0,A,1,45.80509,2.062333
+LABASTIDE CEZERACQ,5279.5,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR31021,Rurale près des villes,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,81.0,80.95,µg-m3,100.0,100,100.0,A,1,43.376279,-0.538206
+LE TEMPLE,5597.6,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR31008,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,60.2,60.175,µg-m3,100.0,100,100.0,R,1,44.86581,-0.94
+LIMOGES - BERLAND,4488.6,ATMO NOUVELLE-AQUITAINE,FR75ZAR01,ZAR LIMOGES,FR35027,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,68.7,68.65,µg-m3,100.0,100,100.0,A,1,45.842204,1.259689
+Les Couronneries,5487.6,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR09015,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,65.5,65.5,µg-m3,100.0,100,100.0,A,1,46.586958,0.358458
+MONT-DE-MARSAN - MIDOUZE,4349.1,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR31055,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,78.3,78.275,µg-m3,38.0,100,38.0,N,-1,43.888972,-0.507028
+Niort Venise,5378.8,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR09303,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,67.8,67.8,µg-m3,100.0,100,100.0,A,1,46.320028,-0.482861
+PALAIS S/ V.- Garros,4353.4,ATMO NOUVELLE-AQUITAINE,FR75ZAR01,ZAR LIMOGES,FR35007,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,66.0,66.025,µg-m3,100.0,100,100.0,A,1,45.873311,1.307916
+PERIGUEUX,5314.4,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR31033,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,63.6,63.6,µg-m3,100.0,100,100.0,A,1,45.189825,0.727184
+Poitiers Centre  Augouard,4319.2,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR09404,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,63.7,63.7,µg-m3,100.0,100,100.0,R,1,46.583998,0.345582
+SAINT-CROUTS,4947.0,ATMO NOUVELLE-AQUITAINE,FR75ZAG02,ZAG BAYONNE,FR31016,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,78.3,78.275,µg-m3,100.0,100,100.0,R,1,43.47982,-1.489157
+ST JUNIEN - Fontaine,5583.5,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR35002,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,67.8,67.75,µg-m3,100.0,100,100.0,R,1,45.884851,0.898431
+Square Pablo Casals,4059.8,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR09103,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,60.9,60.85,µg-m3,100.0,100,100.0,A,1,45.647428,0.167162
+TALENCE,5457.3,ATMO NOUVELLE-AQUITAINE,FR75ZAG01,ZAG BORDEAUX,FR31002,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,66.4,66.4,µg-m3,38.0,100,38.0,N,-1,44.800462,-0.589398
+TULLE - Hugo,5249.5,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR35006,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,66.8,66.775,µg-m3,100.0,100,100.0,A,1,45.262665,1.762752
+Zoodyssée Chizé,4171.6,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR09302,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,68.6,68.6,µg-m3,96.0,100,96.0,R,1,46.143234,-0.395913
+place de VERDUN,3724.0,ATMO NOUVELLE-AQUITAINE,FR75ZRE02,ZR NOUVELLE-AQUITAINE,FR09003,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,72.0,72.025,µg-m3,100.0,100,100.0,A,1,46.162647,-1.153684
+Agathois-piscénois,7506.3,ATMO OCCITANIE,FR76ZRE01,ZR OCCITANIE,FR08022,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,90.8,90.8,µg-m3,100.0,100,100.0,A,1,43.2875,3.50484
+BELESTA EN LAURAGAIS,6105.4,ATMO OCCITANIE,FR76ZRE01,ZR OCCITANIE,FR12031,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,77.1,77.1,µg-m3,100.0,100,100.0,A,1,43.44139,1.821944
+Biterrois-Narbonnais,7453.8,ATMO OCCITANIE,FR76ZRE01,ZR OCCITANIE,FR08023,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,80.9,80.9,µg-m3,100.0,100,100.0,R,1,43.4068,3.18878
+ECOLE M.JACQUIER,6155.2,ATMO OCCITANIE,FR76ZAG01,ZAG TOULOUSE,FR12004,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,76.7,76.65,µg-m3,100.0,100,100.0,A,1,43.575694,1.418064
+GAUDONVILLE,6105.0,ATMO OCCITANIE,FR76ZRE01,ZR OCCITANIE,FR12029,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,63.4,63.4,µg-m3,100.0,100,100.0,A,1,43.883933,0.845617
+Gard Rhodanien2,8741.3,ATMO OCCITANIE,FR76ZRE01,ZR OCCITANIE,FR08209,Rurale près des villes,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,69.0,69.025,µg-m3,100.0,100,100.0,R,1,43.9426,4.67958
+LOURDES LAPACCA,5620.5,ATMO OCCITANIE,FR76ZRE01,ZR OCCITANIE,FR12042,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,84.5,84.525,µg-m3,100.0,100,100.0,A,1,43.096247,-0.040497
+Montauban,5469.599999999999,ATMO OCCITANIE,FR76ZRE01,ZR OCCITANIE,FR50060,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,55.9,55.875,µg-m3,100.0,100,100.0,R,1,44.01285657,1.37530522
+Montpellier Prés d'Arènes,4370.8,ATMO OCCITANIE,FR76ZAG02,ZAG MONTPELLIER,FR08016,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,84.1,84.05,µg-m3,100.0,100,100.0,R,1,43.5915,3.88681
+Montpellier Périurbaine Sud (Lattes),8582.3,ATMO OCCITANIE,FR76ZAG02,ZAG MONTPELLIER,FR08017,Périurbaine,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,83.4,83.375,µg-m3,96.0,100,96.0,R,1,43.5705,3.9118
+Montpellier St Gely,8040.2,ATMO OCCITANIE,FR76ZAG02,ZAG MONTPELLIER,FR08018,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,79.7,79.675,µg-m3,100.0,100,100.0,A,1,43.6926,3.80021
+Nimes Gauzy,7457.9,ATMO OCCITANIE,FR76ZAR02,ZAR NIMES,FR08614,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.5,71.475,µg-m3,100.0,100,100.0,A,1,43.8344,4.3744
+Nimes La Calmette,7614.9,ATMO OCCITANIE,FR76ZAR02,ZAR NIMES,FR08617,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.2,71.175,µg-m3,100.0,100,100.0,R,1,43.9254,4.26581
+PEYRUSSE,4742.0,ATMO OCCITANIE,FR76ZRE01,ZR OCCITANIE,FR12020,Rurale nationale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,53.9,53.875,µg-m3,100.0,100,100.0,A,1,43.6287,0.179069
+Perpignan Les Carmes,6911.6,ATMO OCCITANIE,FR76ZAR01,ZAR PERPIGNAN,FR08714,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,45.4,45.425,µg-m3,100.0,100,100.0,A,1,42.6955,2.90053
+Perpignan St Esteve,7513.2,ATMO OCCITANIE,FR76ZAR01,ZAR PERPIGNAN,FR08712,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,47.7,47.65,µg-m3,100.0,100,100.0,R,1,42.7198,2.83988
+Rodez,6690.4,ATMO OCCITANIE,FR76ZRE01,ZR OCCITANIE,FR12095,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,82.0,82.025,µg-m3,100.0,100,100.0,A,1,44.35699225,2.57070422
+SICOVAL,6383.5,ATMO OCCITANIE,FR76ZAG01,ZAG TOULOUSE,FR12041,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,75.7,75.675,µg-m3,100.0,100,100.0,R,1,43.457306,1.571469
+Stade Travet CASTRES,7214.9,ATMO OCCITANIE,FR76ZRE01,ZR OCCITANIE,FR12053,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,81.2,81.225,µg-m3,100.0,100,100.0,R,1,43.610497,2.23015
+Tarbes lycée Dupuy,5337.5,ATMO OCCITANIE,FR76ZRE01,ZR OCCITANIE,FR12052,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,64.5,64.45,µg-m3,96.0,100,96.0,A,1,43.230297,0.062339
+Toulouse Berthelot,6164.4,ATMO OCCITANIE,FR76ZAG01,ZAG TOULOUSE,FR12030,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.4,71.425,µg-m3,100.0,100,100.0,A,1,43.587344,1.444003
+AIX PLATANES,9799.5,ATMO SUD,FR93ZAG01,ZAG MARSEILLE-AIX,FR03048,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,68.9,68.925,µg-m3,100.0,100,100.0,R,1,43.555777,5.461232
+ANTIBES JEAN MOULIN,9288.1,ATMO SUD,FR93ZAG02,ZAG NICE,FR24007,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,43.6,43.575,µg-m3,100.0,100,100.0,R,1,43.598803,7.093153
+APT,7510.2,ATMO SUD,FR93ZRE02,ZR PROVENCE-ALPES-COTE-D-AZUR,FR03086,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,64.5,64.45,µg-m3,100.0,100,100.0,R,1,43.88012,5.362038
+AUBAGNE LES PASSONS,9659.0,ATMO SUD,FR93ZAG01,ZAG MARSEILLE-AIX,FR03032,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,72.2,72.175,µg-m3,100.0,100,100.0,R,1,43.293138,5.574184
+AVIGNON   MAIRIE,8122.5,ATMO SUD,FR93ZAG04,ZAG AVIGNON,FR03080,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,57.3,57.3,µg-m3,100.0,100,100.0,R,1,43.949673,4.804341
+Arles,6566.3,ATMO SUD,FR93ZRE02,ZR PROVENCE-ALPES-COTE-D-AZUR,FR02022,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,67.0,66.95,µg-m3,100.0,100,100.0,R,1,43.675114,4.62921
+BRIGNOLES,10104.7,ATMO SUD,FR93ZRE02,ZR PROVENCE-ALPES-COTE-D-AZUR,FR03067,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,54.6,54.575,µg-m3,100.0,100,100.0,R,1,43.398731,6.075611
+Berre l'Etang,10091.9,ATMO SUD,FR93ZAG01,ZAG MARSEILLE-AIX,FR02001,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,70.7,70.7,µg-m3,100.0,100,100.0,R,1,43.486234,5.171939
+CANNES BROUSSAILLES,9107.9,ATMO SUD,FR93ZAG02,ZAG NICE,FR24009,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,44.6,44.575,µg-m3,100.0,100,100.0,R,1,43.558389,7.005919
+CARPENTRAS,9316.2,ATMO SUD,FR93ZAG04,ZAG AVIGNON,FR03088,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,66.8,66.76667,µg-m3,100.0,100,100.0,R,1,44.060347,5.067413
+CIANS,9641.3,ATMO SUD,FR93ZRE02,ZR PROVENCE-ALPES-COTE-D-AZUR,FR24014,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,51.7,51.7,µg-m3,100.0,100,100.0,R,1,44.094688,6.988978
+Cheiron,11674.4,ATMO SUD,FR93ZRE02,ZR PROVENCE-ALPES-COTE-D-AZUR,FR24040,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,69.2,69.15,µg-m3,100.0,100,100.0,R,1,43.791911,7.048276
+ESTEREL,8262.7,ATMO SUD,FR93ZRE02,ZR PROVENCE-ALPES-COTE-D-AZUR,FR03070,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,61.7,61.65,µg-m3,100.0,100,100.0,R,1,43.437874,6.76839
+GAP COMMANDERIE,5413.7,ATMO SUD,FR93ZRE02,ZR PROVENCE-ALPES-COTE-D-AZUR,FR24033,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,44.9,44.85,µg-m3,100.0,100,100.0,R,1,44.555193,6.073015
+Istres,8428.1,ATMO SUD,FR93ZAG01,ZAG MARSEILLE-AIX,FR02012,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,65.9,65.9,µg-m3,100.0,100,100.0,R,1,43.506149,4.982898
+LA VALETTE/LA GARDE,7151.7,ATMO SUD,FR93ZAG03,ZAG TOULON,FR03064,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,60.0,59.975,µg-m3,100.0,100,100.0,R,1,43.135902,6.011513
+Le Casset2,11062.4,ATMO AUVERGNE-RHÔNE-ALPES,FR93ZRE02,ZR PROVENCE-ALPES-COTE-D-AZUR,FR15031,Rurale nationale,O3,Fond,Oui,mesures indicatives,Max. journalier moy. hor.,68.4,68.35,µg-m3,100.0,100,100.0,A,1,44.997,6.4694
+MANOSQUE,8766.3,ATMO SUD,FR93ZRE02,ZR PROVENCE-ALPES-COTE-D-AZUR,FR24018,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,73.3,73.3,µg-m3,100.0,100,100.0,R,1,43.835784,5.786131
+MARSEILLE 5 AVENUES,7138.3,ATMO SUD,FR93ZAG01,ZAG MARSEILLE-AIX,FR03043,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,64.6,64.6,µg-m3,100.0,100,100.0,R,1,43.305287,5.394716
+Martigues P. Central,9719.5,ATMO SUD,FR93ZAG01,ZAG MARSEILLE-AIX,FR02004,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,72.8,72.825,µg-m3,100.0,100,100.0,R,1,43.416661,5.042731
+NICE ARSON,9181.9,ATMO SUD,FR93ZAG02,ZAG NICE,FR24036,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,48.7,48.675,µg-m3,100.0,100,100.0,R,1,43.702075,7.286256
+NICE OUEST BOTANIQUE,9883.1,ATMO SUD,FR93ZAG02,ZAG NICE,FR24011,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,51.1,51.125,µg-m3,100.0,100,100.0,R,1,43.685188,7.211174
+Obs Haute-Provence,9589.9,ATMO SUD,FR93ZRE02,ZR PROVENCE-ALPES-COTE-D-AZUR,FR24039,Rurale près des villes,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,66.4,66.425,µg-m3,100.0,100,100.0,R,1,43.933476,5.711809
+PLAN AUPS/STE  BAUME,10591.8,ATMO SUD,FR93ZRE02,ZR PROVENCE-ALPES-COTE-D-AZUR,FR03027,Rurale près des villes,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,70.4,70.35,µg-m3,100.0,100,100.0,R,1,43.335201,5.727365
+SALON,8891.3,ATMO SUD,FR93ZAG01,ZAG MARSEILLE-AIX,FR02041,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,63.7,63.65,µg-m3,100.0,100,100.0,R,1,43.639002,5.101097
+Sausset les Pins,9285.4,ATMO SUD,FR93ZAG01,ZAG MARSEILLE-AIX,FR02021,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,73.4,73.35,µg-m3,100.0,100,100.0,R,1,43.331245,5.117696
+TOULON CLARET,8536.4,ATMO SUD,FR93ZAG03,ZAG TOULON,FR03071,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,68.9,68.925,µg-m3,100.0,100,100.0,R,1,43.131113,5.924184
+VALLEE HUVEAUNE,8915.4,ATMO SUD,FR93ZAG01,ZAG MARSEILLE-AIX,FR03037,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,72.2,72.225,µg-m3,100.0,100,100.0,R,1,43.283341,5.511384
+Blois nord,6109.5,LIG'AIR,FR24ZAR02,ZAR BLOIS,FR34061,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,64.3,64.275,µg-m3,100.0,100,100.0,R,1,47.594256,1.302667
+Chateauroux Sud,5388.7,LIG'AIR,FR24ZRE02,ZR CENTRE-VAL-DE-LOIRE,FR34051,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,71.0,71.0,µg-m3,100.0,100,100.0,A,1,46.798278,1.693139
+Dreux Centre,5570.1,LIG'AIR,FR24ZRE02,ZR CENTRE-VAL-DE-LOIRE,FR34046,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,67.5,67.5,µg-m3,100.0,100,100.0,A,1,48.729694,1.358472
+Faverolles,4984.5,LIG'AIR,FR24ZRE02,ZR CENTRE-VAL-DE-LOIRE,FR34054,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,65.7,65.7,µg-m3,100.0,100,100.0,A,1,47.170167,1.409694
+Fulbert,5433.3,LIG'AIR,FR24ZRE02,ZR CENTRE-VAL-DE-LOIRE,FR34041,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,59.3,59.325,µg-m3,100.0,100,100.0,A,1,48.444417,1.510139
+Joué lès Tours,4648.1,LIG'AIR,FR24ZAG01,ZAG TOURS,FR34024,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,58.7,58.7,µg-m3,100.0,100,100.0,A,1,47.344139,0.653778
+La_Source-CNRS,5757.3,LIG'AIR,FR24ZAG02,ZAG ORLEANS,FR34029,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,68.1,68.075,µg-m3,100.0,100,100.0,A,1,47.83775,1.944667
+Leblanc,5111.0,LIG'AIR,FR24ZRE02,ZR CENTRE-VAL-DE-LOIRE,FR34032,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,65.0,65.025,µg-m3,100.0,100,100.0,A,1,47.082778,2.405333
+Marigny-les-usages,4658.5,LIG'AIR,FR24ZAG02,ZAG ORLEANS,FR34017,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,64.5,64.5,µg-m3,100.0,100,100.0,A,1,47.958972,2.009278
+Montargis Fond,0.0,LIG'AIR,FR24ZRE02,ZR CENTRE-VAL-DE-LOIRE,FR34065,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,55.3,55.325,µg-m3,100.0,100,100.0,A,1,47.996994,2.731511
+Montargis Fond 2,4540.5,LIG'AIR,FR24ZRE02,ZR CENTRE-VAL-DE-LOIRE,FR34066,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,60.8,60.75,µg-m3,54.0,100,54.0,N,-1,48.00145,2.72618
+Montierchaume,5208.2,LIG'AIR,FR24ZRE02,ZR CENTRE-VAL-DE-LOIRE,FR34056,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,69.8,69.775,µg-m3,100.0,100,100.0,A,1,46.864528,1.771944
+Oysonville,5371.8,LIG'AIR,FR24ZRE02,ZR CENTRE-VAL-DE-LOIRE,FR34043,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,56.7,56.725,µg-m3,100.0,100,100.0,A,1,48.391139,1.955611
+Tours péri-urbaine,5388.0,LIG'AIR,FR24ZAG01,ZAG TOURS,FR34026,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,65.1,65.1,µg-m3,100.0,100,100.0,A,1,47.46925,0.717333
+Verneuil,5614.4,LIG'AIR,FR24ZRE02,ZR CENTRE-VAL-DE-LOIRE,FR34038,Rurale nationale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,69.0,69.0,µg-m3,100.0,100,100.0,A,1,46.814694,2.610069
+AJACCIO CANETTO,4971.0,QUALITAIR CORSE,FR94ZAR01,ZAR AJACCIO,FR41001,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,40.2,40.15,µg-m3,96.0,100,96.0,R,1,41.924694,8.735694
+AJACCIO PIATANICCIA,6411.8,QUALITAIR CORSE,FR94ZAR01,ZAR AJACCIO,FR41003,Périurbaine,O3,Industrielle,Oui,mesures fixes,Max. journalier moy. hor.,42.0,41.975,µg-m3,100.0,100,100.0,R,1,41.958028,8.820278
+AJACCIO SPOSATA,7667.3,QUALITAIR CORSE,FR94ZAR01,ZAR AJACCIO,FR41007,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,46.6,46.6,µg-m3,100.0,100,100.0,R,1,41.949222,8.757583
+BASTIA GIRAUD,7647.0,QUALITAIR CORSE,FR94ZAR02,ZAR BASTIA,FR41002,Urbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,58.8,58.75,µg-m3,100.0,100,100.0,R,1,42.697917,9.446417
+BASTIA LA MARANA,7900.9,QUALITAIR CORSE,FR94ZAR02,ZAR BASTIA,FR41004,Périurbaine,O3,Industrielle,Oui,mesures fixes,Max. journalier moy. hor.,70.7,70.65,µg-m3,100.0,100,100.0,R,1,42.535833,9.475972
+BASTIA MONTESORO,10165.3,QUALITAIR CORSE,FR94ZAR02,ZAR BASTIA,FR41017,Périurbaine,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,67.2,67.225,µg-m3,100.0,100,100.0,R,1,42.671333,9.434639
+VENACO,7643.3,QUALITAIR CORSE,FR94ZRE01,ZR CORSE,FR41024,Rurale régionale,O3,Fond,Oui,mesures fixes,Max. journalier moy. hor.,62.1,62.05,µg-m3,100.0,100,100.0,R,1,42.236028,9.190028
