@@ -4,52 +4,94 @@ L'outil R-Shiny App est concu pour accompagner les collectivités locales dans l
 
 ## Installation
 
-Lors de l'exécution de l'outil de visualisation, veuillez vous assurer que vous avez téléchargé le fichier des indicateurs dans votre répertoire et que le chemin d'accès au fichier dans le code est modifié en fonction du chemin d'accès contenant ce fichier.
+Lors de l'exécution de l'outil de visualisation, assurez-vous que le fichier **"final_indicators.rds"** est bien présent dans le dossier "**data/4 - Final Data"**.
 
-L'outil de visualisation a été conçu en R, il utilise le package Rshiny. Par conséquent, avant d'exécuter et d'éditer le code, assurez-vous que les paquets suivants sont installés (Veuillez-exécuter le fichier installation_de_paquets) :
+Vérifiez également que les fichiers shapefiles correspondant aux formes IRIS, communales, départementales et régionales, produits par l'INSEE, se trouvent dans le dossier **"data/Shapefiles"**. Ces shapefiles doivent être téléchargés directement en ligne en suivant les instructions des fichiers README fournis avec chaque shapefile.
 
-install.packages("raster")
-install.packages("sp")
-install.packages("tmap")
-install.packages("sf")
-install.packages("dplyr")
-install.packages("here")
-install.packages("readr")
-install.packages("readxl")
-install.packages("shiny")
-install.packages("leaflet")
-install.packages("RColorBrewer")
-install.packages("rmapshaper")
-install.packages("shinythemes")
-
-En outre, veuillez vous assurer que les fichiers de forme IRIS, communaux, départementaux et régionaux produits par l'INSEE se trouvent dans votre répertoire de travail. Ceux-ci se trouvent dans le dossier shapefiles (Note : pour plus d'informations sur la structure, veuillez consulter la section sur la structure des fichiers ci-dessous).
+Enfin, modifiez manuellement les chemins d'accès à ces données au début du script de l'application.
 
 ## Conseils d'utilisation
 
-Prenons un exemple pour expliciter l'utilisation de l'outil. Un utilisateur souhaite connaître l’indicateur de couvert forestier à l'echelle départementale à travers la France métropolitaine. 
+Prenons un exemple pour expliciter l'utilisation de l'outil. Un utilisateur souhaite connaître l’indicateur de couvert forestier à l'echelle départementale à travers la France métropolitaine.
 
 L’utilisateur sélectionne donc :
- 
-* Choisir un déterminant : Température
-* Choisir un indicateur : Couvert Forestier
-* Choisir une échelle : Departement
 
-Et si un utilisateur souhaite connaître l’indicateur de couvert forestier à l'echelle communale dans un département (par example L'Essonne) et puis focaliser sur une commune (Palaiseau). 
+-   Choisir un déterminant : Température
+-   Choisir un indicateur : Couvert Forestier
+-   Choisir une échelle : Departement
+
+Et si un utilisateur souhaite connaître l’indicateur de couvert forestier à l'echelle communale dans un département (par example L'Essonne) et puis focaliser sur une commune (Palaiseau).
 
 L’utilisateur sélectionne donc :
- 
-* Choisir un déterminant : Température
-* Choisir un indicateur : Couvert Forestier
-* Choisir une échelle : Communes
-* Choisir département à visualiser : Essonne
-* Choisir localisation : Palaiseau
+
+-   Choisir un déterminant : Température
+-   Choisir un indicateur : Couvert Forestier
+-   Choisir une échelle : Communes
+-   Choisir département à visualiser : Essonne
+-   Choisir localisation : Palaiseau
 
 ## Coordonnées
 
-Si vous trouvez des erreurs dans le code, ou vous avez des améliorations à nous suggérer, n'hésitez pas à nous contacter en utilisant les courriels suivants : 
+Si vous trouvez des erreurs dans le code, ou vous avez des améliorations à nous suggérer, n'hésitez pas à nous contacter en utilisant les courriels suivants :
 
-Awadalla Carreño Alfonso - alfonso.awadalla-carreno@polytechnique.edu
-Jade Sillere - jade.sillere@polytechnique.edu
-Julian Rojas - julian.rojas@polytechnique.edu
-Maela Guillaume-Le-Gall - maela.guillaume-le-gall@polytechnique.edu
-Sofia Vaca - sofia.vaca@polytechnique.edu
+-   Awadalla Carreño Alfonso - alfonso.awadalla-carreno\@polytechnique.edu
+
+-   Jade Sillere - jade.sillere\@polytechnique.edu
+
+-   Julian Rojas - julian.rojas\@polytechnique.edu
+
+-   Maela Guillaume-Le-Gall - maela.guillaume-le-gall\@polytechnique.edu
+
+-   Sofia Vaca - sofia.vaca\@polytechnique.edu
+
+------------------------------------------------------------------------
+
+# R-Shiny App App
+
+The R-Shiny App tool is designed to support local authorities in conducting health-diagnostic assessments and urban planning of their territories by providing an overview of various health determinants through a mapping data platform. This platform highlights indicators related to health and urban planning at a fine-grained territorial level across metropolitan France.
+
+## Installation
+
+When running the visualization tool, ensure that the file "final_indicators.rds" is present in the "data/4 - Final Data" folder.
+
+Also, verify that the shapefiles for IRIS, municipal, departmental, and regional boundaries, produced by INSEE, are located in the "data/Shapefiles" folder. These shapefiles should be downloaded directly online by following the instructions in the README files included with each shapefile.
+
+Finally, manually update the paths to these data at the beginning of the script.
+
+## Usage Instructions
+
+Let’s take an example to explain how to use the tool. A user wants to know the forest cover indicator at the departmental level across metropolitan France.
+
+The user selects:
+
+-   Choose a determinant: Temperature
+
+-   Choose an indicator: Forest Cover
+
+-   Choose a scale: Department
+
+If a user wants to know the forest cover indicator at the municipal level in a department (e.g., Essonne) and then focus on a specific municipality (e.g., Palaiseau), they would select:
+
+-   Choose a determinant: Temperature
+
+-   Choose an indicator: Forest Cover
+
+-   Choose a scale: Municipalities
+
+-   Choose department to visualize: Essonne
+
+-   Choose location: Palaiseau
+
+## Contact Information
+
+If you find errors in the code or have suggestions for improvements, feel free to contact us using the following emails:
+
+-   Awadalla Carreño Alfonso - alfonso.awadalla-carreno\@polytechnique.edu
+
+-   Jade Sillere - jade.sillere\@polytechnique.edu
+
+-   Julian Rojas - julian.rojas\@polytechnique.edu
+
+-   Maela Guillaume-Le-Gall - maela.guillaume-le-gall\@polytechnique.edu
+
+-   Sofia Vaca - sofia.vaca\@polytechnique.edu

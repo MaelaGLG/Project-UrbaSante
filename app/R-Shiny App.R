@@ -8,7 +8,7 @@
 #----------------------------- Import Libraries -------------------------------#
 
 packages <- c("sp", "sf", "data.table", "dplyr", "readxl", "shiny", "shinythemes",
-              "leaflet", "RColorBrewer", "rmapshaper")
+              "leaflet", "RColorBrewer", "rmapshaper", "rstudioapi")
 
 # Check each package, install if missing
 for (pkg in packages) {
@@ -18,15 +18,20 @@ for (pkg in packages) {
   library(pkg, character.only = TRUE)
 }
 
+
 #---------------------- Import Data & Quick processing ------------------------#
 
+# Set current directory to current folder of the script
+current_folder = dirname(rstudioapi::getActiveDocumentContext()$path)
+setwd(current_folder)
+
 # Define file paths for Shapefiles
-path_data = "/Users/alfonso/Desktop/ECOLAB/final_indicators.rds"
-path_indic_corresp = "/Users/alfonso/Desktop/ECOLAB/Indicateurs Correspondance.xlsx"
-path_regions = "/Users/alfonso/Dropbox/Alfonso/Cours l'X/M1/Policy-in-Action Project/Insee Tables/4- Régions INSEE/regions-20180101.shp"
-path_departements = "/Users/alfonso/Dropbox/Alfonso/Cours l'X/M1/Policy-in-Action Project/Insee Tables/3- Départements INSEE/departements-20180101.shp"
-path_communes = "/Users/alfonso/Dropbox/Alfonso/Cours l'X/M1/Policy-in-Action Project/Insee Tables/2- Communes INSEE/communes-20220101.shp"
-path_iris = "/Users/alfonso/Dropbox/Alfonso/Cours l'X/M1/Policy-in-Action Project/Insee Tables/1- Iris INSEE/CONTOURS-IRIS.shp"
+path_data = "../data/4- Final Data/final_indicators.rds"
+path_indic_corresp = "../data/Linking Tables/liaison - indicateurs et descriptions/Indicateurs Correspondance.xlsx"
+path_regions = "../data/Shapefiles/path/to/regions-20180101.shp" # modify according to you
+path_departements = "../data/Shapefiles/path/to/departements-20180101.shp" # modify according to you
+path_communes = "../data/Shapefiles/path/to/communes-20220101.shp" # modify according to you
+path_iris = "../data/Shapefiles/path/to/CONTOURS-IRIS.shp" # modify according to you
 
 # Load the data
 data = as.data.table(read_rds(path_data))
