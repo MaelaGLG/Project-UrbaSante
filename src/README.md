@@ -3,12 +3,12 @@ Ce dossier contient les scripts utilisés dans le projet. Ces scripts exécutent
 
 Les scripts sont organisés en trois dossiers principaux, chacun jouant un rôle spécifique dans le pipeline de traitement des données. Vous trouverez ci-dessous une description détaillée de l'objectif de chaque dossier :
 
-# 1- Rangée --> Intermédiaire
+# 1- Raw --> Intermediate
 Objectif : Ce dossier contient les scripts qui traitent les données brutes et créent les indicateurs. 
 
 Structure : Le dossier est organisé en dossiers pour chaque déterminant, où chaque dossier de déterminant contient les scripts utilisés pour la création des indicateurs de ce déterminant. Chaque script crée l'indicateur et l'exporte. 
 
-# 2- Intermédiaire --> Formaté
+# 2- Intermediate --> Formatted
 Objectif : Ce dossier contient les scripts qui formatent les indicateurs qui ont besoin d'un formatage supplémentaire. Ce formatage supplémentaire concerne principalement les données de latitude/longitude, pour lesquelles la conversion des points en polygones à différentes échelles était nécessaire.
 
 Structure : Chaque indicateur nécessitant un formatage supplémentaire possède son propre script. 
@@ -27,11 +27,11 @@ Partir du dossier « 3- Formatted --> Final » qui formate et fusionne tous les 
 # B. Partir des données brutes
 1. Commencez par les données brutes : Assurez-vous que les différents ensembles de données brutes sont prêts dans le format attendu par les scripts dans le dossier 1- Row --> Intermediate.
 
-2. Traitez les données brutes : Exécutez les scripts du dossier 1- Row --> Intermediate pour créer les indicateurs.
+2. Traitez les données brutes : Exécutez les scripts du dossier 1-Raw --> Intermediate pour créer les indicateurs.
 
 3. Formatez les indicateurs : Après avoir généré les indicateurs, utilisez les scripts du dossier 2- Intermediate --> Formatted pour formater ceux qui ont besoin d'un formatage supplémentaire.
 
-
+4. Traitement final : Exécutez les scripts dans le dossier 3-Formatted --> Final pour fusionner toutes les données formatées et produire le jeu de données final.
 
 
 # Scripts Directory
@@ -39,7 +39,7 @@ This folder contains the scripts used in the project. These scripts perform diff
 
 The scripts are organized into three main folders, each serving a specific role in the data processing pipeline. Below is a breakdown of each folder’s purpose:
 
-# 1- Row --> Intermediate
+# 1- Raw --> Intermediate
 Purpose: This folder contains the scripts that process the raw data and create the indicators. 
 
 Structure: The folder is organized by folders for each determinant, where each determinant folder has the scripts used for the creation of the indicators of this determinant. Each script creates the indicator and exports it. 
