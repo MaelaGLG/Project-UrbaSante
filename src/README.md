@@ -1,13 +1,15 @@
 # Scripts Directory
-This folder contains the scripts used in the project. These scripts perform different tasks, including data processing, creation of indicators, formatting and developing an R Shiny App.
+This folder contains the scripts used in the project. These scripts perform different tasks, including data processing, creation of indicators, formatting and developing an R Shiny App. 
 
-# Structure and description
 The scripts are organized into three main folders, each serving a specific role in the data processing pipeline. Below is a breakdown of each folder’s purpose:
 
 # 1- Row --> Intermediate
-Purpose: This folder contains the scripts that process the raw data. The output of each code is an indicator. 
+Purpose: This folder contains the scripts that process the raw data and create the indicators. 
+Structure: The folder is organized by folders for each determinant, where each determinant folder has the scripts used for the creation of the indicators of this determinant. Each script creates the indicator and exports it. 
 
 # 2- Intermediate --> Formatted
+Purpose: This folder contains the scripts that format the indicators that need extra formatting. 
+Structure: The folder is organized by folders for each determinant, where each determinant folder has the scripts used for the creation of the indicators of this determinant. Each script creates the indicator and exports it. 
 
 # 3- Formatted --> Final
 
