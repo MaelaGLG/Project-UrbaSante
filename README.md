@@ -85,12 +85,12 @@ Certaines données sont manquantes pour certains indicateurs, notamment au nivea
 ├── LICENSE <- Licence for the repository (by default, MIT)
 ├── app <- Scripts to run the app│
 ├── data
-│   ├── 1- Raw Data <- raw data files organized by determinant
-│   ├── 2- Intermediate Data  <- data files with the indicators already created
-│   ├── 3- Formatted Data  <- data files that have been cleaned and formatted for final use
-│   ├── 4- Final Data  <- final database with all the indicators
-│   ├── linking tables  <- additional tables used for processing some indicators
-│   └── shapefiles  <-xx
+│   ├── 1- Raw Data <- Raw data files organized by determinant
+│   ├── 2- Intermediate Data  <- Data files with the indicators already created
+│   ├── 3- Formatted Data  <- Data files that have been cleaned and formatted for final use
+│   ├── 4- Final Data  <- Final database with all the indicators
+│   ├── linking tables  <- Additional tables used for processing some indicators
+│   └── shapefiles  <- Shapefiles required to generate some indicators and the R Shiny map.
 ├── src <- Source code for use in this project.
 │   ├── 1- Row --> Intermediate <- Scripts that process raw data and generate indicators.
 │   ├── 2 - Interemediate --> Formatted <--  Scripts that process additional geographical formatting for specific indicators
@@ -102,10 +102,10 @@ Certaines données sont manquantes pour certains indicateurs, notamment au nivea
 
 Si vous souhaitez contribuer à ce projet, merci de bien vouloir nous contacter:
 
-Awadalla Carreño Alfonso - alfonso.awadalla-carreno@polytechnique.edu
+Alfonso Awadalla-Carreño- alfonso.awadalla-carreno@polytechnique.edu
 Jade Sillere - jade.sillere@polytechnique.edu
 Julian Rojas - julian.rojas@polytechnique.edu
-Maela Guillaume-Le-Gall - maela.guillaume-le-gall@polytechnique.edu
+Maela Guillaume-Le Gall - maela.guillaume-le-gall@polytechnique.edu
 Sofia Vaca - sofia.vaca@polytechnique.edu
 
 ### **Remerciements**
