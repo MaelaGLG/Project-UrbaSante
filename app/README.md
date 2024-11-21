@@ -53,19 +53,17 @@ Let's take an example to explain how the mapping application works:
 
 1) A user wants to know the forest cover indicator at departmental level across mainland France. The user selects :
  
-* Choose a driver : Temperature
+* Choose a determinant : Temperature
 * Choose an indicator: Forest cover
 * Choose a scale: Department
 
 2) A user wants to know the forest cover indicator at the local level (e.g. Palaiseau). The user therefore selects :
  
-* Choose a driver : Temperature
+* Choose a determinant : Temperature
 * Choose an indicator: Forest cover
 * Choose a scale: Communes
 * Choose a department to view: Essonne
 * Choose location: Palaiseau
 
 The map uses a colour gradient to represent the selected indicator at the chosen spatial resolution. The lowest values (in one of the seven possible ranges) are displayed in purple, and the highest values in yellow.
-
-Translated with DeepL.com (free version)
 
