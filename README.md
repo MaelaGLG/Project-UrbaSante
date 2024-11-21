@@ -83,15 +83,19 @@ Certaines données sont manquantes pour certains indicateurs, notamment au nivea
 ```
 ├── README.md <- The top-level README for developers using this project.
 ├── LICENSE <- Licence for the repository (by default, MIT)
+├── app <- Scripts to run the app│
 ├── data
-│   ├── raw <- Original data
-│   ├── intermediate  <- Intermediate data that has been transformed
-│   └── processed  <- The final data set if transformed│
+│   ├── 1- Raw Data <- raw data files organized by determinant
+│   ├── 2- Intermediate Data  <- data files with the indicators already created
+│   ├── 3- Formatted Data  <- data files that have been cleaned and formatted for final use
+│   ├── 4- Final Data  <- final database with all the indicators
+│   ├── linking tables  <- additional tables used for processing some indicators
+│   └── shapefiles  <-xx
 ├── src <- Source code for use in this project.
-│   ├── exploratory <- Exploratory scripts
-│   ├── features <- Scripts to turn raw data into features for modeling
-│   └── analysis <- Scripts to produce results│
-└── app <- Scripts to run the app
+│   ├── 1- Row --> Intermediate <- Scripts that process raw data and generate indicators.
+│   ├── 2 - Interemediate --> Formatted <--  Scripts that process additional geographical formatting for specific indicators
+│   └── 3 - Formatted --> Final <-- Script responsible for ensuring uniform formatting across all indicators
+└── app <- Script to run the app
 ```
 
 ### **Contributions**
