@@ -176,8 +176,23 @@ Some indicators lack data at the IRIS level due to statistical confidentiality c
 
 ## **File Structure**
 
-├── README.md <- The main README for developers. ├── LICENSE <- Repository license (default: MIT). ├── app <- Scripts to run the application. ├── data │ ├── 1- Raw Data <- Raw data organized by determinant. │ ├── 2- Intermediate Data <- Processed data with indicators created. │ ├── 3- Formatted Data <- Data cleaned and formatted for use. │ ├── 4- Final Data <- Final database with all indicators. │ ├── linking tables <- Auxiliary processing tables. │ └── shapefiles <- Geographical data for indicators and mapping. ├── src <- Source code. │ ├── 1- Raw -> Intermediate <- Scripts to process raw data. │ ├── 2- Intermediate -> Formatted <- Geographical formatting scripts. │ └── 3- Formatted -> Final <- Scripts for consistent formatting. └── app <- Scripts to run the application.
-
+```
+├── README.md <- The top-level README for developers using this project.
+├── LICENSE <- Licence for the repository (by default, MIT)
+├── app <- Scripts to run the app│
+├── data
+│   ├── 1- Raw Data <- Raw data files organized by determinant
+│   ├── 2- Intermediate Data  <- Data files with the indicators already created
+│   ├── 3- Formatted Data  <- Data files that have been cleaned and formatted for final use
+│   ├── 4- Final Data  <- Final database with all the indicators
+│   ├── linking tables  <- Additional tables used for processing some indicators
+│   └── shapefiles  <- Shapefiles required to generate some indicators and the R Shiny map.
+├── src <- Source code for use in this project.
+│   ├── 1- Row --> Intermediate <- Scripts that process raw data and generate indicators.
+│   ├── 2 - Interemediate --> Formatted <--  Scripts that process additional geographical formatting for specific indicators
+│   └── 3 - Formatted --> Final <-- Script responsible for ensuring uniform formatting across all indicators
+└── app <- Script to run the app
+```
 
 ## **Contributions**
 
