@@ -1,4 +1,4 @@
-# Scripts de traitement des données par Determinant
+## Scripts de traitement des données par Déterminant
 Ce dossier contient des scripts pour le traitement des données brutes et la génération d'indicateurs.
 
 ### Structure:
