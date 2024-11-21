@@ -10,6 +10,27 @@ Vérifiez également que les fichiers shapefiles correspondant aux formes IRIS, 
 
 Enfin, modifiez manuellement les chemins d'accès à ces données au début du script de l'application.
 
+## Fonctionnement de l'application
+
+Prenons un exemple pour expliciter le fonctionnement de l'application cartographique : 
+
+1) Un utilisateur souhaite connaître l’indicateur de couvert forestier à l'echelle départementale à travers la France métropolitaine. L’utilisateur sélectionne donc :
+ 
+* Choisir un déterminant : Température
+* Choisir un indicateur : Couvert Forestier
+* Choisir une échelle : Département
+
+2) Un utilisateur souhaite connaître l’indicateur de couvert forestier à l'échelle communale (ex: Palaiseau). L’utilisateur sélectionne donc :
+ 
+* Choisir un déterminant : Température
+* Choisir un indicateur : Couvert Forestier
+* Choisir une échelle : Communes
+* Choisir département à visualiser : Essonne
+* Choisir localisation : Palaiseau
+
+La cartographie utilise un dégradé de couleurs pour représenter l'indicateur sélectionné à la résolution spatiale choisie. Les valeurs les plus basses (dans l'un des sept intervalles possibles) sont affichées en violet, et les valeurs les plus élevées en jaune.
+
+___
 
 
 # R-Shiny App
@@ -26,25 +47,23 @@ Finally, manually update the paths to these data at the beginning of the script.
 
 ## Usage Instructions
 
-Let’s take an example to explain how to use the tool. A user wants to know the forest cover indicator at the departmental level across metropolitan France.
+Let's take an example to explain how the mapping application works: 
 
-The user selects:
+1) A user wants to know the forest cover indicator at departmental level across mainland France. The user selects :
+ 
+* Choose a driver : Temperature
+* Choose an indicator: Forest cover
+* Choose a scale: Department
 
--   Choose a determinant: Temperature
+2) A user wants to know the forest cover indicator at the local level (e.g. Palaiseau). The user therefore selects :
+ 
+* Choose a driver : Temperature
+* Choose an indicator: Forest cover
+* Choose a scale: Communes
+* Choose a department to view: Essonne
+* Choose location: Palaiseau
 
--   Choose an indicator: Forest Cover
+The map uses a colour gradient to represent the selected indicator at the chosen spatial resolution. The lowest values (in one of the seven possible ranges) are displayed in purple, and the highest values in yellow.
 
--   Choose a scale: Department
-
-If a user wants to know the forest cover indicator at the municipal level in a department (e.g., Essonne) and then focus on a specific municipality (e.g., Palaiseau), they would select:
-
--   Choose a determinant: Temperature
-
--   Choose an indicator: Forest Cover
-
--   Choose a scale: Municipalities
-
--   Choose department to visualize: Essonne
-
--   Choose location: Palaiseau
+Translated with DeepL.com (free version)
 
