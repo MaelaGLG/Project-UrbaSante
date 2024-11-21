@@ -51,12 +51,11 @@ Les indicateurs de l'application cartographique proviennent soit directement de 
 
 ### **L'Application Cartographique**
 
-Avant d'exécuter l'outil de visualisation en utilisant`./app/R-Shiny App`, assurez-vous d'avoir téléchargé :
+
+L'outil de visualisation a été conçu en R, il utilise le package Rshiny. Avant d'exécuter l'outil en utilisant`./app/R-Shiny App`, assurez-vous d'avoir téléchargé :
 
 - Le fichier des indicateurs dans le répertoire `./data/4- Final Data`
 - Les Shapefiles dans `./data/shapefiles`
-
-L'outil de visualisation a été conçu en R, il utilise le package Rshiny.
 
 Prenons un exemple pour expliciter le fonctionnement de l'application cartographique : 
 
@@ -106,11 +105,11 @@ Certaines données sont manquantes pour certains indicateurs, notamment au nivea
 
 Si vous souhaitez contribuer à ce projet, merci de bien vouloir nous contacter:
 
-Alfonso Awadalla-Carreño- alfonso.awadalla-carreno@polytechnique.edu
-Jade Sillere - jade.sillere@polytechnique.edu
-Julian Rojas - julian.rojas@polytechnique.edu
-Maela Guillaume-Le Gall - maela.guillaume-le-gall@polytechnique.edu
-Sofia Vaca - sofia.vaca@polytechnique.edu
+- Alfonso Awadalla-Carreño- alfonso.awadalla-carreno@polytechnique.edu
+- Jade Sillere - jade.sillere@polytechnique.edu
+- Julian Rojas - julian.rojas@polytechnique.edu
+- Maela Guillaume-Le Gall - maela.guillaume-le-gall@polytechnique.edu
+- Sofia Vaca - sofia.vaca@polytechnique.edu
 
 ### **Remerciements**
 
