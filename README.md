@@ -120,7 +120,7 @@ This project is the result of a collaboration between the MSc&T "Data and Econom
 
 As part of this collaboration, a challenge was proposed to the master's students: to build a tool for observing and analyzing various health determinants linked to land-use planning at a granular territorial level.
 
-## Observation
+## Assessment
 
 Land-use planning significantly impacts public health by addressing various health determinants. By influencing the environment, lifestyles, and behaviors, it is estimated that land-use planning can affect up to 60% of an individual’s health (Barton et al., 2015). However, in the current context of climate change, the services and living conditions provided by urban ecosystems are at risk of significant deterioration, with consequences for public health. 
 
@@ -191,7 +191,7 @@ If you find errors or have suggestions, please contact:
 
 ## **Acknowledgments**
 
-We thank the ECOLAB team for proposing this challenge and supporting the development of this tool, particularly Paul Grignon and Theo Sigiscar. This project was part of the MSc&T in Data and Economics for Public Policy, and we extend our gratitude to program directors Pierre Boyer and Franck Malherbet for organizing this collaboration and their ongoing support.
+We thank the ECOLAB team for proposing this challenge and supporting the development of this tool, particularly Paul Grignon and Theo Sigiscar. This project was part of the MSc&T in Data and Economics for Public Policy, we would like to express our sincere thanks to program directors Pierre Boyer and Franck Malherbet for organizing this collaboration and their ongoing support.
 
 
 
