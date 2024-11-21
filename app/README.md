@@ -10,41 +10,7 @@ Vérifiez également que les fichiers shapefiles correspondant aux formes IRIS, 
 
 Enfin, modifiez manuellement les chemins d'accès à ces données au début du script de l'application.
 
-## Conseils d'utilisation
 
-Prenons un exemple pour expliciter l'utilisation de l'outil. Un utilisateur souhaite connaître l’indicateur de couvert forestier à l'echelle départementale à travers la France métropolitaine.
-
-L’utilisateur sélectionne donc :
-
--   Choisir un déterminant : Température
--   Choisir un indicateur : Couvert Forestier
--   Choisir une échelle : Departement
-
-Et si un utilisateur souhaite connaître l’indicateur de couvert forestier à l'echelle communale dans un département (par example L'Essonne) et puis focaliser sur une commune (Palaiseau).
-
-L’utilisateur sélectionne donc :
-
--   Choisir un déterminant : Température
--   Choisir un indicateur : Couvert Forestier
--   Choisir une échelle : Communes
--   Choisir département à visualiser : Essonne
--   Choisir localisation : Palaiseau
-
-## Coordonnées
-
-Si vous trouvez des erreurs dans le code, ou vous avez des améliorations à nous suggérer, n'hésitez pas à nous contacter en utilisant les courriels suivants :
-
--   Awadalla Carreño Alfonso - alfonso.awadalla-carreno\@polytechnique.edu
-
--   Jade Sillere - jade.sillere\@polytechnique.edu
-
--   Julian Rojas - julian.rojas\@polytechnique.edu
-
--   Maela Guillaume-Le-Gall - maela.guillaume-le-gall\@polytechnique.edu
-
--   Sofia Vaca - sofia.vaca\@polytechnique.edu
-
-------------------------------------------------------------------------
 
 # R-Shiny App
 
@@ -82,16 +48,3 @@ If a user wants to know the forest cover indicator at the municipal level in a d
 
 -   Choose location: Palaiseau
 
-## Contact Information
-
-If you find errors in the code or have suggestions for improvements, feel free to contact us using the following emails:
-
--   Awadalla Carreño Alfonso - alfonso.awadalla-carreno\@polytechnique.edu
-
--   Jade Sillere - jade.sillere\@polytechnique.edu
-
--   Julian Rojas - julian.rojas\@polytechnique.edu
-
--   Maela Guillaume-Le-Gall - maela.guillaume-le-gall\@polytechnique.edu
-
--   Sofia Vaca - sofia.vaca\@polytechnique.edu
