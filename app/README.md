@@ -31,6 +31,8 @@ Prenons un exemple pour expliciter le fonctionnement de l'application cartograph
 La cartographie utilise un dégradé de couleurs pour représenter l'indicateur sélectionné à la résolution spatiale choisie. Les valeurs les plus basses (dans l'un des sept intervalles possibles) sont affichées en violet, et les valeurs les plus élevées en jaune.
 
 ___
+___
+
 
 
 # R-Shiny App
