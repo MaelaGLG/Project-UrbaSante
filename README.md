@@ -76,31 +76,22 @@ La cartographie utilise un dégradé de couleurs pour représenter l'indicateur 
 ### **Limites de l'outil**
 
 
-Pour certains indicateurs, des données sont manquantes, notamment au niveau IRIS, en raison du secret statistique lié à une faible population dans la maille d'analyse. De plus, une expertise ou une connaissance locale peut parfois mettre en évidence des anomalies résultant de collecte de données parfois incomplète lors des étapes précédentes à la construction des indicateurs.
+Certaines données sont manquantes pour certains indicateurs, notamment au niveau IRIS, en raison du secret statistique lié à une faible population dans la maille d’analyse. Par ailleurs, une expertise ou une connaissance locale du territoire peut révéler des anomalies dues à des collectes de données incomplètes lors des étapes préalables à la construction des indicateurs. Ces anomalies peuvent également découler d’une faible population ou d’un volume insuffisant de données dans la maille d’analyse, ce qui peut biaiser certains indicateurs.
 
 
 ### **Structure des fichiers**
 ```
 ├── README.md <- The top-level README for developers using this project.
 ├── LICENSE <- Licence for the repository (by default, MIT)
-├── requirements.txt <- The requirements file for reproducing the analysis environment
 ├── data
 │   ├── raw <- Original data
 │   ├── intermediate  <- Intermediate data that has been transformed
-│   └── processed  <- The final data set if transformed
-│
-├── docs <- Documentation of the code
-│   └── examples <- Example of how to use it (notebooks) 
-│
+│   └── processed  <- The final data set if transformed│
 ├── src <- Source code for use in this project.
 │   ├── exploratory <- Exploratory scripts
 │   ├── features <- Scripts to turn raw data into features for modeling
-│   ├── models <- Scripts to train models and then use trained models to make
-│   └── analysis <- Scripts to produce results
-│
-├── reports <- Generated analysis as HTML, PDF, LaTeX, etc.
-│
-└── app <- If relevant, scripts to run an app
+│   └── analysis <- Scripts to produce results│
+└── app <- Scripts to run the app
 ```
 
 ### **Contributions**
