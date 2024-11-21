@@ -51,7 +51,11 @@ Les indicateurs de l'application cartographique proviennent soit directement de 
 
 ### **L'Application Cartographique**
 
-Avant d'exécuter l'outil de visualisation, assurez-vous d'avoir téléchargé le fichier des indicateurs dans le répertoire \texttt{./data/4- Final Data}, les Shapefiles dans \texttt{./data/shapefiles}, et d'avoir ajusté le chemin d'accès dans le code pour qu'il corresponde à l'emplacement de ces fichiers.
+Avant d'exécuter l'outil de visualisation en utilisant`./app/R-Shiny App`, assurez-vous d'avoir téléchargé :
+
+- Le fichier des indicateurs dans le répertoire `./data/4- Final Data`
+- Les Shapefiles dans `./data/shapefiles`
+
 L'outil de visualisation a été conçu en R, il utilise le package Rshiny.
 
 Prenons un exemple pour expliciter le fonctionnement de l'application cartographique : 
