@@ -113,4 +113,85 @@ Si vous trouvez des erreurs dans le code, ou vous avez des améliorations à nou
 
 Nous tenons à remercier l'équipe d'ECOLAB pour avoir proposé ce défi et pour toute l'aide apportée au cours du développement de cet outil. Nous remercions en particulier Paul Grignon et Theo Sigiscar pour le temps qu'ils nous ont consacré et les conseils qu'ils nous ont prodigués tout au long de ce projet. Par ailleurs, ce projet a été réalisé dans le cadre du MSc&T in Data and Economics for Public Policy et nous tenons à remercier nos directeurs de master, Pierre Boyer et Franck Malherbet, pour avoir organisé ce challenge avec ECOLAB et pour leur soutien constant.
 
+___
+# Urbasanté Project - ECOLAB
+
+This project is the result of a collaboration between the MSc&T "Data and Economics for Public Policy" (École Polytechnique, ENSAE & Télécom Paris) and ECOLAB, the innovation lab for ecological transition under the French General Commission for Sustainable Development.
+
+As part of this collaboration, a challenge was proposed to the master's students: to build a tool for observing and analyzing various health determinants linked to land-use planning at a granular territorial level.
+
+## Observation
+
+Land-use planning significantly impacts public health by addressing various health determinants. By influencing the environment, lifestyles, and behaviors, it is estimated that land-use planning can affect up to 60% of an individual’s health (Barton et al., 2015). However, in the current context of climate change, the services and living conditions provided by urban ecosystems are at risk of significant deterioration, with consequences for public health. 
+
+Yet, health and environmental management are often handled independently in local territories, with little interaction between the two fields. This separation overlooks substantial potential benefits for public health. According to Santé Publique France, nearly one-third of cancers could be avoided by modifying population lifestyles.
+
+Given this, there is a need to assist local decision-makers by providing an awareness-raising tool to help them better understand the health-land-use interface. The objective of the tool is to help local governments conduct health-land-use diagnostics of their territories by providing visualizations of various health determinants through a geospatial data platform. This platform highlights health-land-use indicators at a fine territorial resolution across mainland France.
+
+## **Building the Health-Environment Indicators**
+
+We compiled or developed 29 indicators across 11 health-environment determinants from various administrative sources.
+
+| **Determinant**                        | **Indicator**                             | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|----------------------------------------|--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Air Quality**                        | Air Quality (ATMO Score)                  | The ATMO indicator provides the percentage of days in the year with an ATMO score above 3 (on a scale of 0 to 6) at the IRIS (INSEE) resolution for mainland France in 2023. Data was sourced from Geod’Ai.                                                                                                                                                                                                                                |
+| **Air Quality**                        | Ozone Indicator (SOMO35)                  | The SOMO35 indicator measures the annual sum of daily O3 concentrations exceeding 35 ppb at the IRIS resolution for mainland France in 2023. Data was sourced from Geod’Ai.                                                                                                                                                                                                                         |
+| **Water Management**                   | Groundwater Quality                       | This indicator consolidates storage tanks into a unified database. Scores are assigned within a 1 km radius around sites, weighted by proximity to inhabited areas (e.g., full weight for sites within 250m, halved between 250m and 500m). The final score is calculated based on this weighted approach (2020).                                                                                                                                |
+| **Water Management**                   | Drought                                   | This indicator assesses drought risk in mainland France for 2024 at the municipal resolution. It weights the number of days under drought alerts, reinforced vigilance, or crisis levels. Data was sourced from detailed meteorological observations (data.gouv).                                                                                                                                     |
+| **Biodiversity**                       | Dengue                                    | This indicator measures the number of dengue cases per million inhabitants per region from May 1 to December 8, 2023.                                                                                                                                                                                                                                                                                                                      |
+| **Biodiversity**                       | Pesticides CMR                            | This indicator reports the total kilograms of CMR-category pesticides purchased per municipality in France, aggregated from postal code data and weighted among municipalities sharing the same code. Data was sourced from official records.                                                                                                                                                                                                 |
+| **Temperature**                        | Forest Cover                              | This indicator provides forest cover density at the IRIS resolution (0%-100%) for mainland France in 2018, using satellite rasters from the Copernicus platform.                                                                                                                                                                                                                                                                           |
+| **Temperature**                        | Impervious Surfaces                       | This indicator provides the density of impervious surfaces at the IRIS resolution (0%-100%) for mainland France in 2018, using satellite rasters from the Copernicus platform.                                                                                                                                                                                                                                                              |
+| **Light Pollution/Luminosity**         | Radiance                                  | This indicator measures artificial night sky brightness (in microcandelas per square meter) across France, ranging from 0 to 11 times natural light levels (2015). Data was sourced from NASA’s VIIRS satellite.                                                                                                                                                                                                                            |
+| **Security**                           | Intentional Assaults                      | This indicator measures the rate of intentional assaults on individuals aged 15 or older (domestic and non-domestic) in 2022. Data was sourced from the Ministry of the Interior’s statistical department (SSMSI).                                                                                                                                                                                                                          |
+| **Access to Employment, Services, and Amenities** | Access to Local Amenities            | This indicator measures the percentage of people with access to local amenities (e.g., banks, bakeries, elementary schools) within their municipality in 2021. Data was sourced from INSEE’s sustainable territorial development indicators.                                                                                                                                                       |
+| **Physical Activity**                  | Accessible Sports Facilities              | This indicator measures the number of sports facilities accessible within a 15-minute drive for each municipality. Isochrones were generated using the Open Source Routing Machine, and data was aggregated from the Sports Facilities Census.                                                                                                                                                                                             |
+| **Housing**                            | Overcrowded Main Residences               | This indicator reports the percentage of overcrowded main residences (excluding one-person studios) as of 2020. Data was sourced from INSEE’s Population Census.                                                                                                                                                                                                                                                                            |
+
+Indicators are either directly sourced from administrative datasets (with the source listed in the "data" folder) or constructed (with detailed methodologies in R, Stata, or Python scripts available in the "src" folder).
+
+## **The Cartographic Application**
+
+Before running the tool (`./app/R-Shiny App`), ensure the necessary files are downloaded, as outlined in the associated README.
+
+### Example Use Cases:
+
+1. A user wants to view the forest cover indicator at the departmental level across mainland France.  
+   - **Select determinant**: Temperature  
+   - **Select indicator**: Forest Cover  
+   - **Select scale**: Department  
+
+2. A user wants to view the forest cover indicator for Palaiseau at the municipal level.  
+   - **Select determinant**: Temperature  
+   - **Select indicator**: Forest Cover  
+   - **Select scale**: Municipality  
+   - **Select department**: Essonne  
+   - **Select location**: Palaiseau  
+
+The map uses a color gradient to represent the selected indicator at the chosen spatial resolution, with lower values in purple and higher values in yellow.
+
+## **Limitations of the Tool**
+
+Some indicators lack data at the IRIS level due to statistical confidentiality concerns in sparsely populated areas. Local expertise may also uncover anomalies caused by incomplete data collection during the indicator construction process.
+
+## **File Structure**
+
+├── README.md <- The main README for developers. ├── LICENSE <- Repository license (default: MIT). ├── app <- Scripts to run the application. ├── data │ ├── 1- Raw Data <- Raw data organized by determinant. │ ├── 2- Intermediate Data <- Processed data with indicators created. │ ├── 3- Formatted Data <- Data cleaned and formatted for use. │ ├── 4- Final Data <- Final database with all indicators. │ ├── linking tables <- Auxiliary processing tables. │ └── shapefiles <- Geographical data for indicators and mapping. ├── src <- Source code. │ ├── 1- Raw -> Intermediate <- Scripts to process raw data. │ ├── 2- Intermediate -> Formatted <- Geographical formatting scripts. │ └── 3- Formatted -> Final <- Scripts for consistent formatting. └── app <- Scripts to run the application.
+
+
+## **Contributions**
+
+If you find errors or have suggestions, please contact:
+
+- Alfonso Awadalla-Carreño: alfonso.awadalla-carreno@polytechnique.edu  
+- Jade Sillere: jade.sillere@polytechnique.edu  
+- Julian Rojas: julian.rojas@polytechnique.edu  
+- Maela Guillaume-Le Gall: maela.guillaume-le-gall@polytechnique.edu  
+- Sofia Vaca: sofia.vaca@polytechnique.edu  
+
+## **Acknowledgments**
+
+We thank the ECOLAB team for proposing this challenge and supporting the development of this tool, particularly Paul Grignon and Theo Sigiscar. This project was part of the MSc&T in Data and Economics for Public Policy, and we extend our gratitude to program directors Pierre Boyer and Franck Malherbet for organizing this collaboration and their ongoing support.
+
+
 
