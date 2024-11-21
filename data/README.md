@@ -1,11 +1,11 @@
 # Data
-Ce dossier contient tous les fichiers de données nécessaires au projet, organisés selon les différentes étapes de traitement. Les données sont divisées en plusieurs dossiers en fonction de leur état, de la donnée brute à la version finale formatée utilisée dans l'application R Shiny.
+Ce dossier contient tous les fichiers de données nécessaires au projet, organisés selon les différentes étapes de traitement. Les données sont divisées en plusieurs dossiers en fonction de leur état de processing, de la donnée brute à la version finale formatée utilisée dans l'application R Shiny.
 
 ## Structure des Dossiers
 
 ### Raw Data :
 
-Contient les fichiers de données brutes organisés par déterminant. Pour les fichiers plus petits, les données sont directement stockées ici. Pour les fichiers plus volumineux, seules les instructions sur la façon de télécharger les bases de données nécessaires sont fournies.
+Contient les fichiers de données brutes organisés par déterminant. Pour les fichiers plus petits, les données sont directement stockées ici. Pour les fichiers plus volumineux, les instructions sur la façon de télécharger les bases de données nécessaires sont fournies.
 
 ### Intermediate Data : 
 Contient les fichiers de données avec les indicateurs déjà créés. Ces fichiers ont subi un traitement initial et contiennent les résultats intermédiaires prêts pour un formatage ultérieur.
