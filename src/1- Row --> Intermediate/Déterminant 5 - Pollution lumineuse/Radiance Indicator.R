@@ -24,7 +24,7 @@ current_folder = dirname(rstudioapi::getActiveDocumentContext()$path)
 setwd(current_folder)
 
 # Path to raster files
-path = "..../data/1- Raw Data/Déterminant 4 - Temperature/path/to/folder/Data" # path to folder containing all the geospatial tiff files
+path = "..../data/1- Raw Data/Déterminant 5- Pollution Lumineuse/Radiance" # path to folder containing all the geospatial tiff files
 files = list.files(path, pattern="*.tif$", full.names=TRUE)
 
 # Path to France shapefile
@@ -48,7 +48,7 @@ path_regions = "..../data/Shapefiles/path/to/regions-20180101.shp"
 regions = st_read(path_regions)
 
 # Path to folder where you want to save the indicator dataframe
-path_export = "..../data/3- Formatted Data/couvert_forestier.xlsx"
+path_export = "..../data/3- Formatted Data/radiance.xlsx"
 
 
 ################################################################################

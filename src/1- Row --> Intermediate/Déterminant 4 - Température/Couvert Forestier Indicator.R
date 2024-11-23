@@ -7,7 +7,7 @@
 
 #----------------------------- Import Libraries -------------------------------#
 
-packages <- c("raster", "sp", "sf", "data.table", "writexl")
+packages <- c("raster", "sp", "sf", "data.table", "writexl", "rstudioapi")
 
 # Check each package, install if missing
 for (pkg in packages) {
@@ -17,11 +17,43 @@ for (pkg in packages) {
   library(pkg, character.only = TRUE)
 }
 
+#------------------------------- Import Data ----------------------------------#
+
+# Set current directory to current folder of the script
+current_folder = dirname(rstudioapi::getActiveDocumentContext()$path)
+setwd(current_folder)
+
+# Path to raster files
+path = "..../data/1- Raw Data/Déterminant 4 - Temperature/Couvert Forestier" # path to folder containing all the geospatial tiff files
+files = list.files(path, pattern="*.tif$", full.names=TRUE)
+
+# Path to France shapefile
+path_shp = "..../data/Shapefiles/path/to/fr_100km.shp"
+france = st_read(path_shp)
+
+# Read the IRIS shapefile from the INSEE
+path_iris = "..../data/Shapefiles/path/to/CONTOURS-IRIS.shp"
+iris = st_read(path_iris)
+
+# Read the Communes shapefile from the INSEE
+path_communes = "..../data/Shapefiles/path/to/communes-20220101.shp"
+communes = st_read(path_communes)
+
+# Read the Departements shapefile from the INSEE
+path_departements = "..../data/Shapefiles/path/to/departements-20180101.shp"
+departements = st_read(path_departements)
+
+# Read the Regions shapefile from the INSEE
+path_regions = "..../data/Shapefiles/path/to/regions-20180101.shp"
+regions = st_read(path_regions)
+
+# Path to folder where you want to save the indicator dataframe
+path_export = "..../data/3- Formatted Data/couvert_forestier.xlsx"
+
 
 ################################################################################
 #                     STEP 1 - Importing Raster Data                           #
 ################################################################################
-
 
 #-----------------------------------------------
 #  Procedure when there is only one .tiff file |
@@ -146,7 +178,7 @@ data_regions = process_polygons(sp_points, regions, "code_insee", "nom", "Region
 final_data = rbind(data_iris, data_communes, data_departements, data_regions)
 
 # Save indicator
-write_xlsx(final_data, path=paste0(path_export, "/", indicator, ".xlsx"))
+write_xlsx(final_data, path=path_export)
 
 
 
