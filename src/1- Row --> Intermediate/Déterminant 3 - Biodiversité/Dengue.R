@@ -11,9 +11,18 @@ library(readxl)
 library(tmap) 
 library(writexl)
 
-# CHANGE DIRECTORY TO WHERE THE FILES ARE SAVED
-getwd()
-setwd("C:/Users/sofia/OneDrive/Documentos/Master/Ecolab")
+#------------------------------- Import Data ----------------------------------#
+
+# Set current directory to current folder of the script
+current_folder = dirname(rstudioapi::getActiveDocumentContext()$path)
+setwd(current_folder)
+
+# Path to France shapefile
+path = "..../data/shapefiles/France/fr_100km.shp"
+france = st_read(path_shp)
+
+# Path to folder where you want to save the indicator dataframe
+path_export = "..../data/3- Formatted Data/Dengue.xlsx"
 
 # Import data of the cases of mosquitos by region
 excel_data <- readxl::read_xlsx("Mosquitos by region.xlsx")
@@ -39,5 +48,5 @@ dengue_df <- mosquitos_df %>% select(code, dengue_pop)
 dengue_df$scale <- "Regions"
 dengue_df <- dengue_df %>% rename(code_insee = code)
 
-# Save xlsx
-write_xlsx(dengue_df, "dengue.xlsx")
+# Save indicator
+write_xlsx(dengue_df, path=path_export)
