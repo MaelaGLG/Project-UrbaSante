@@ -1,15 +1,21 @@
-# IN THIS SCRIPT WE WANT TO GENERATE THE INDICATOR DENGUE CASES PER MILLION HABITANTS
-# Install packages
-install.packages(c("sf", "dplyr", "leaflet", "readxl", "tmap", "openxlsx", "writexl"))
+#----------------------------------- INFO -------------------------------------#
+# Author : Sofia Vaca
+# Date	: November 2024
+# Descr	: Generate an indicator of Dengue cases per habitants
+#------------------------------------------------------------------------------#
 
-# Load required libraries
-library(openxlsx)
-library(sf)
-library(dplyr)
-library(leaflet)
-library(readxl)
-library(tmap) 
-library(writexl)
+
+#----------------------------- Import Libraries -------------------------------#
+
+packages <- c("sf", "dplyr", "leaflet", "readxl", "tmap", "openxlsx", "writexl")
+
+# Check each package, install if missing
+for (pkg in packages) {
+  if (!requireNamespace(pkg, quietly = TRUE)) {
+    install.packages(pkg)
+  }
+  library(pkg, character.only = TRUE)
+}
 
 #------------------------------- Import Data ----------------------------------#
 
