@@ -36,7 +36,7 @@ For the following indicators, data was downloaded from administrative platforms 
 ### Determinant 10 - Access to Employment, Services, and Facilities
 - eloignement.xlsx: https://statistiques-locales.insee.fr/#c=indicator&view=map3
 - cyclabilité_commune.xlsx: https://www.velo-territoires.org/actualite/2022/05/11/indicateur-de-cyclabilite/#
-- 
+  
 ### Determinant 12 - Food
 - parcelles_bio_communes.xlsx: http://prod1-as-datar.integra.fr/part-des-surfaces-agricoles-biologiques-arrivees-au-terme-de-leur-conversion-dans-la-surface-0
 
