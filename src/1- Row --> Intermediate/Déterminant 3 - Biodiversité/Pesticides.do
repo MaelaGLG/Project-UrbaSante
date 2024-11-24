@@ -4,7 +4,7 @@ clear all
 // Set the root directory
 global project_path "../"
 
-// Cambiar al directorio con los archivos de Excel
+// Directory where the excel files are saved
 cd "$project_path/data/1- Raw Data/Déterminant 3 - Biodiversité/Pesticides"
 
 
@@ -349,7 +349,7 @@ save "Pesticides by classification.dta", replace
 
 // Create weights and add the relation between code communes and postal codes
 clear
-import excel "base-officielle-codes-postaux.xlsx", sheet("base-officielle-codes-postaux") firstrow
+import excel "$project_path/data/linking tables/liaison - postal code communes/base-officielle-codes-postaux.xlsx", sheet("base-officielle-codes-postaux") firstrow
 gen codePostal_str = string(code_postal)
 duplicates tag code_commune_insee, generate(dupvar)
 drop if dupvar>0
