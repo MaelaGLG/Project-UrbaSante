@@ -1,9 +1,12 @@
 ****This DO FILE creates the indicators related to the amount of pesticides bought by commune. The original file is by postal code and department, so a merge is done and some weights are added given that postal codes can be assigned to two communes at the same time. 
 clear all
 
-// Set the root directory where Excel files are located
-global myRoot "C:\Users\sofia\OneDrive\Documentos\Master\Ecolab\Pesticides"
-cd "$myRoot"
+// Set the root directory
+global project_path "../"
+
+// Cambiar al directorio con los archivos de Excel
+cd "$project_path/data/1- Raw Data/Déterminant 3 - Biodiversité/Pesticides"
+
 
 // List all CSV files in the current directory
 local archivos_csv : dir "." files "*.csv"
@@ -407,4 +410,4 @@ append using `Departement'
 append using `Communes'
 
 **Save file
-save "pesticides_indicators.dta", replace 
+export excel using "$project_path/data/3- Formatted Data/pesticides.xlsx", replace firstrow(variables)
