@@ -39,5 +39,5 @@ dengue_df <- mosquitos_df %>% select(code, dengue_pop)
 dengue_df$scale <- "Regions"
 dengue_df <- dengue_df %>% rename(code_insee = code)
 
-# Save database
-saveRDS(dengue_df, "dengue_df.rds")
+# Save xlsx
+write_xlsx(dengue_df, "dengue.xlsx")
