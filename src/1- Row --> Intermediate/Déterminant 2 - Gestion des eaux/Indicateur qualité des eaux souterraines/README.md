@@ -2,7 +2,7 @@ EcoLab1 Notebook
 
 ### Description ###
 
-This notebook, EcoLab1.ipynb, is designed to process environmental data from JSON and GeoJSON files. The code extracts relevant information about pollution sites, merges it with spatial data, and calculates weighted scores based on pollution and proximity to population centers. It uses geospatial analysis techniques to assess environmental risk factors.
+This notebook, EcoLab1_1.ipynb, is designed to process environmental data from JSON and GeoJSON files. The code extracts relevant information about pollution sites, merges it with spatial data, and calculates weighted scores based on pollution and proximity to population centers. It uses geospatial analysis techniques to assess environmental risk factors.
 
  ### Contents ###
 
