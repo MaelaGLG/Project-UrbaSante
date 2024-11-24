@@ -137,8 +137,7 @@ Placez les fichiers nécessaires dans le même répertoire que le cahier :
 
 Fichier GeoJSON : zones_arretes_en_vigueur.geojson
 Shapefile : all_zones.shp
-Ces fichiers peuvent être trouvés dans le dossier "raw" des fichiers de données (sauf all_zones.shp) ou téléchargés ici :
-Données sécheresse Propluvia
+Ces fichiers peuvent être trouvés dans le dossier "raw" des fichiers de données (sauf all_zones.shp) ou téléchargés ici: https://www.data.gouv.fr/fr/datasets/donnee-secheresse-propluvia/
 Exécutez les cellules du cahier dans l’ordre pour charger, traiter, analyser et visualiser les données. Les cartes finales et les résultats seront affichés, et les fichiers de sortie sauvegardés.
 
 Fichiers de sortie
