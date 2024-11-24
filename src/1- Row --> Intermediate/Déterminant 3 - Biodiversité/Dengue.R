@@ -15,10 +15,10 @@ library(writexl)
 getwd()
 setwd("C:/Users/sofia/OneDrive/Documentos/Master/Ecolab")
 
-# Read your data with the variable of interest from Excel
+# Import data of the cases of mosquitos by region
 excel_data <- readxl::read_xlsx("Mosquitos by region.xlsx")
 
-# Read your data with the variable of interest from Excel
+# Import population data 
 population_data <- readxl::read_xlsx("fr_population.region.departement.xlsx")
 
 # Convert the "code" column in population and mosquitos data to character
