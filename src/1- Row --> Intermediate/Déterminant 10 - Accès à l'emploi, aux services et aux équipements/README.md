@@ -1,8 +1,8 @@
-# Indicateur "Equipement de Proximité Accessibles",
+# Indicateur "Equipement de Proximité Accessibles"
 
 Cet indicateur fournit le taux d'équipement de proximité accessibles à 6 minutes en voiture en 2021. Pour chaque commune, les isochrones représentant les zones accessibles en voiture dans un rayon de 6 minutes ont été générées en utilisant l'Open Source Routing Machine. Ensuite, le taux de services de proximité présents à l'intérieur de l'isochrone a été calculé (Base Permanente des Equipements INSEE).
 
-## Données nécessaires
+## Données nécessaires pour exécuter le code
 Pour reconstruire cet indicateur, vous devez télécharger la Base Permanente des équipements 2021 sur le site de l'INSEE : 
 https://www.insee.fr/fr/metadonnees/source/operation/s2077/bases-donnees-ligne 
 
@@ -25,7 +25,7 @@ ___
 # Indicator "Accessible Proximity Equipment"
 This indicator provides the rate of proximity equipment accessible within a 6-minute drive in 2021. For each municipality, isochrones representing areas accessible by car within a 6-minute radius were generated using the Open Source Routing Machine. Then, the rate of proximity services present within the isochrone was calculated (Permanent Equipment Database by INSEE).
 
-# Necessary data
+# Necessary data to run the code
 To recreate this indicator, you need to download the 2021 Permanent Equipment Database from the INSEE website:
 https://www.insee.fr/en/metadonnees/source/operation/s2077/bases-donnees-ligne
 
