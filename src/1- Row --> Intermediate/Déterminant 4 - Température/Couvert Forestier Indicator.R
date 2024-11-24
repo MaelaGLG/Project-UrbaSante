@@ -28,23 +28,23 @@ path = "..../data/1- Raw Data/Déterminant 4 - Temperature/Couvert Forestier" # 
 files = list.files(path, pattern="*.tif$", full.names=TRUE)
 
 # Path to France shapefile
-path_shp = "..../data/Shapefiles/path/to/fr_100km.shp"
+path_shp = "..../data/shapefiles/France/fr_100km.shp"
 france = st_read(path_shp)
 
 # Read the IRIS shapefile from the INSEE
-path_iris = "..../data/Shapefiles/path/to/CONTOURS-IRIS.shp"
+path_iris = "..../data/shapefiles/Iris/CONTOURS-IRIS.shp"
 iris = st_read(path_iris)
 
 # Read the Communes shapefile from the INSEE
-path_communes = "..../data/Shapefiles/path/to/communes-20220101.shp"
+path_communes = "..../data/shapefiles/Communes/communes-20220101.shp"
 communes = st_read(path_communes)
 
 # Read the Departements shapefile from the INSEE
-path_departements = "..../data/Shapefiles/path/to/departements-20180101.shp"
+path_departements = "..../data/shapefiles/Departements/departements-20180101.shp"
 departements = st_read(path_departements)
 
 # Read the Regions shapefile from the INSEE
-path_regions = "..../data/Shapefiles/path/to/regions-20180101.shp"
+path_regions = "..../data/shapefiles/Regions/regions-20180101.shp"
 regions = st_read(path_regions)
 
 # Path to folder where you want to save the indicator dataframe
