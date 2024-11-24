@@ -37,6 +37,8 @@ Merged Data in CSV (merged_data.csv): Combines extracted site information with s
 
 Final Aggregated Score (Printed Output):A single score representing environmental risk, calculated by combining site conditions (etat_site) with distance-based weights to population centers. This final score can help assess overall environmental impact.
 
+SOUTERRAINE_weights.csv: Contains adjusted weighted scores for pollution sites, considering site conditions and distance from population centers.
+
 ### Requirements ###
 
 To run this notebook, you will need:
@@ -106,6 +108,8 @@ Score pondéré (Affichage des résultats) : Un score calculé basé sur les val
 Données fusionnées en CSV (merged_data.csv) : Combine les informations des sites extraites avec les données spatiales (coordonnées et code_insee) provenant du fichier GeoJSON. Ce fichier constitue l'ensemble de données principal pour une analyse approfondie.
 
 Score agrégé final (Affichage des résultats) : Un score unique représentant le risque environnemental, calculé en combinant les conditions des sites (etat_site) avec des pondérations basées sur la distance aux centres de population. Ce score final permet d'évaluer l'impact environnemental global.
+
+SOUTERRAINE_weights.csv : Contient les scores pondérés ajustés pour les sites pollués, en tenant compte des conditions des sites et de leur distance par rapport aux centres de population.
 
 Prérequis
 
