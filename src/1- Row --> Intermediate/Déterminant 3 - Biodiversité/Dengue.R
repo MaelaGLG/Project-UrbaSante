@@ -17,18 +17,23 @@ library(writexl)
 current_folder = dirname(rstudioapi::getActiveDocumentContext()$path)
 setwd(current_folder)
 
-# Path to France shapefile
-path = "..../data/shapefiles/France/fr_100km.shp"
-france = st_read(path_shp)
+# Path to dengue database
+path = "..../data/1- Raw Data/Déterminant 3 - Biodiversité/Denge" # path to folder containing the database
 
 # Path to folder where you want to save the indicator dataframe
 path_export = "..../data/3- Formatted Data/Dengue.xlsx"
 
+# Path to folder with the population excel 
+path_population = "..../data/linking tables/liaison - population_regions/fr_population.region.departement.xlsx" # path to folder containing the database
+
+# Path to the Excel file with mosquito data
+excel_file_path <- file.path(path, "Mosquitos by region.xlsx")
+
 # Import data of the cases of mosquitos by region
-excel_data <- readxl::read_xlsx("Mosquitos by region.xlsx")
+excel_data <- readxl::read_xlsx(excel_file_path)
 
 # Import population data 
-population_data <- readxl::read_xlsx("fr_population.region.departement.xlsx")
+population_data <- readxl::read_xlsx(path_population)
 
 # Convert the "code" column in population and mosquitos data to character
 excel_data$code <- as.character(excel_data$code)
