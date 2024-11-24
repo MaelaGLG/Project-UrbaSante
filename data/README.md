@@ -25,6 +25,9 @@ Contient les shapefiles nécessaires à la création de la carte dans l'applicat
 # Data 
 This folder contains all the necessary data files for the project, organized across multiple stages of processing. The data is divided into different folders based on its current state, from raw data through to final formatted files used in the R Shiny app.
 
+
+___
+
 ## Folder Structure
 ### Raw Data: 
 
