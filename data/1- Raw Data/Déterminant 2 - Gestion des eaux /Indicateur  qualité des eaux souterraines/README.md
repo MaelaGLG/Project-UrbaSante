@@ -28,6 +28,7 @@ To recreate this indicator, you need to:
 Download the required files:
 
 BASOL.json: https://www.data.gouv.fr/fr/datasets/base-des-sols-pollues/ 
+
 icpe.geojson: https://www.data.gouv.fr/fr/datasets/base-des-installations-classees-icpe/
 
 Rename the files if necessary:
