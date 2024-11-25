@@ -7,6 +7,7 @@ Pour recréer cet indicateur, vous devez :
 Télécharger les fichiers nécessaires :
 
 BASOL.json : https://www.data.gouv.fr/fr/datasets/base-des-sols-pollues/ 
+
 icpe.geojson : https://www.data.gouv.fr/fr/datasets/base-des-installations-classees-icpe/
 
 Renommer les fichiers si nécessaire :
