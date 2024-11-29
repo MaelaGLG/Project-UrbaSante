@@ -69,11 +69,8 @@ Nous avons compilé ou construit, à partir de différentes sources administrati
 | **Activité physique et sportive** | Nombre d'Infrastructures Sportives Accessibles | Cet indicateur fournit le nombre d'infrastructures sportives accessibles à 15 minutes. Pour chaque commune, les isochrones représentant les zones accessibles en voiture dans un rayon de 15 minutes ont été générées en utilisant l'Open Source Routing Machine. Ensuite, la somme du nombre d'infrastructures sportives présentes à l'intérieur de l'isochrone a été calculée. Sources : Recensement des équipements sportifs, espaces et sites de pratiques. |
 | **Alimentation** | Part des Surfaces Agricoles Biologiques | Part des surfaces agricoles biologiques arrivées au terme de leur conversion dans la surface agricole biologique totale. Source : Observatoire des Territoires. |
 | **Habitat** | Part des Résidences Principales Suroccupées | Part des résidences principales (hors studio de 1 personne) suroccupées. Source : Insee, Recensement de la population (RP 2020). |
-| **Revenu** | Part des pers. âgées de - de 25 
-Part des pers. âgées de 25 à 64 
-Part des pers. âgées de 65 | Part (en %) de la population âgée de moins de 25 ans pour l'année 2020. 
-Part (en %) de la population âgée de plus de 25 ans et moins de 64 ans pour l'année 2020. 
-Part (en %) de la population âgée de plus de 64 ans pour l'année 2020. Les données sont issues de l'INSEE, Recensement de la population (RP 2020). |
+| **Revenu**                             | - Part des pers. âgées de - de 25 <br> - Part des pers. âgées de 25 à 64 <br> - Part des pers. âgées de 65 | - Part (en %) de la population âgée de moins de 25 ans pour l'année 2020. <br> - Part (en %) de la population âgée de plus de 25 ans et moins de 64 ans pour l'année 2020. <br> - Part (en %) de la population âgée de plus de 64 ans pour l'année 2020. <br> Les données sont issues de l'INSEE, Recensement de la population (RP 2020). |
+
 
 Les indicateurs de l'application cartographique proviennent soit directement de sites administratifs, auquel cas la source utilisée est indiquée dans le dossier "data" dans le fichier du déterminant correspondant. Pour les indicateurs construits, la méthodologie et les étapes de reproduction sont détaillées dans les codes disponibles (R, Stata ou Python) dans le dossier "scr".
 
