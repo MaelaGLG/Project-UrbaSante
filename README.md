@@ -201,9 +201,9 @@ Indicators are either directly sourced from administrative datasets (with the so
 │   ├── linking tables  <- Additional tables used for processing some indicators
 │   └── shapefiles  <- Shapefiles required to generate some indicators and the R Shiny map.
 ├── src <- Source code for use in this project.
-│   ├── 1- Row --> Intermediate <- Scripts that process raw data and generate indicators.
-│   ├── 2 - Interemediate --> Formatted <--  Scripts that process additional geographical formatting for specific indicators
-│   └── 3 - Formatted --> Final <-- Script responsible for ensuring uniform formatting across all indicators
+│   ├── 1- Raw to Intermediate <- Scripts that process raw data and generate indicators.
+│   ├── 2 - Interemediate to Formatted <--  Scripts that process additional geographical formatting for specific indicators
+│   └── 3 - Formatted to Final <-- Script responsible for ensuring uniform formatting across all indicators
 └── app <- Script to run the app
 ```
 
