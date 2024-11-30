@@ -4,18 +4,18 @@ Ce dossier regroupe tous les scripts utilisés dans le cadre du projet. Ils offr
 
 Les scripts sont classés dans trois dossiers principaux, chacun représentant une étape spécifique du processus de traitement des données. Vous trouverez ci-dessous un aperçu de l'objectif et de la structure de chaque dossier :
 
-## 1- Raw --> Intermediate
+## 1- Raw to Intermediate
 - Objectif : Ce dossier contient des scripts qui traitent les données brutes et génèrent des indicateurs.
 
 - Structure : Le dossier est organisé en sous-dossiers, chacun correspondant à un déterminant spécifique.
 Chaque dossier de déterminant contient des scripts responsables de la création d'indicateurs pour ce déterminant. Ces scripts traitent les données brutes, génèrent les indicateurs et les exportent.
 
-##  2- Intermediate --> Formatted
+##  2- Intermediate to Formatted
 - Objectif : Les scripts de ce dossier gèrent le formatage supplémentaire d'indicateurs spécifiques, comme la conversion de points de latitude/longitude en polygones à différentes échelles.
 
 - Structure : Chaque indicateur nécessitant un formatage supplémentaire dispose d'un script dédié dans ce dossier.
 
-##  3- Formatted --> Final
+##  3- Formatted to Final
 - Objectif : Ce dossier contient le script chargé d'assurer un formatage uniforme de tous les indicateurs et de les fusionner dans un ensemble de données final.
 
 - Structure : Ce dossier contient un script unique qui effectue le traitement final et la fusion.
@@ -47,7 +47,7 @@ This folder contains all the scripts used in the project. They provide an overvi
 The scripts are categorized into three main folders, each representing a specific stage in the data processing pipeline. Below is an overview of each folder’s purpose and structure:
 
 
-## 1- Raw --> Intermediate
+## 1- Raw to Intermediate
 Purpose:
 This folder contains scripts that process raw data and generate indicators.
 
@@ -55,14 +55,14 @@ Structure:
 The folder is organized into subfolders, each corresponding to a specific determinant.
 Each determinant folder contains scripts responsible for creating indicators for that determinant. These scripts process the raw data, generate the indicators, and export them.
 
-##  2- Intermediate --> Formatted
+##  2- Intermediate to Formatted
 Purpose:
 Scripts in this folder handle additional formatting for specific indicators, such as converting latitude/longitude points into polygons at various scales.
 
 Structure:
 Each indicator requiring extra formatting has a dedicated script in this folder.
 
-##  3- Formatted --> Final
+##  3- Formatted to Final
 Purpose:
 This folder contains the script responsible for ensuring uniform formatting across all indicators and merging them into a final dataset.
 
