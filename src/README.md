@@ -1,5 +1,6 @@
 # Répertoire des scripts
-Ce répertoire contient tous les scripts utilisés dans le projet. Ces scripts couvrent des tâches telles que le traitement des données, la création, le formatage et la fusion des indicateurs. 
+Ce dossier regroupe tous les scripts utilisés dans le cadre du projet. Ils offrent un aperçu des traitements effectués, bien qu'ils ne soient pas conçus pour une réutilisation directe. Ces scripts couvrent des tâches telles que le traitement des données, la création, le formatage et la fusion des indicateurs. 
+
 
 Les scripts sont classés dans trois dossiers principaux, chacun représentant une étape spécifique du processus de traitement des données. Vous trouverez ci-dessous un aperçu de l'objectif et de la structure de chaque dossier :
 
@@ -41,7 +42,7 @@ Exécutez le script dans le dossier « 3. Formatted → Final » pour fusionner 
 ___
 
 # Scripts Directory
-This directory contains all the scripts used in the project. These scripts cover tasks such as data processing, creation, formatting and merging of the indicators. 
+This folder contains all the scripts used in the project. They provide an overview of the processing steps carried out, although they are not intended for direct reuse. These scripts cover tasks such as data processing, creation, formatting and merging of the indicators. 
 
 The scripts are categorized into three main folders, each representing a specific stage in the data processing pipeline. Below is an overview of each folder’s purpose and structure:
 
