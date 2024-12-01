@@ -1,7 +1,7 @@
 #----------------------------------- INFO -------------------------------------#
 # Author : Sofia Vaca
 # Date	: November 2024
-# Descr	: Generate an indicator of Dengue cases per habitants
+# Descr	: Generate an indicator of Dengue cases per million habitants
 #------------------------------------------------------------------------------#
 
 
