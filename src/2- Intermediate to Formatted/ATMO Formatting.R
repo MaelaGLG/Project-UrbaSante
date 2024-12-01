@@ -19,28 +19,28 @@ for (pkg in packages) {
 #-------------------------- Import Files and Paths ----------------------------#
 
 # Import dataset
-path_csv = "/Users/alfonso/Desktop/JULIAN/indicateur_secheresse.csv"
+path_csv = "..../data/1- Intermediate Data/ATMO.csv"
 data = read.csv(path_csv, fileEncoding = "Latin1")
 data = as.data.table(data)
 
 # Read the IRIS shapefile from the INSEE
-path_iris = "/Users/alfonso/Dropbox/Alfonso/Cours l'X/M1/Policy-in-Action Project/Insee Tables/1- Iris INSEE/CONTOURS-IRIS.shp"
+path_iris = "..../data/shapefiles/Iris/CONTOURS-IRIS.shp"
 iris = st_read(path_iris)
 
 # Read the Communes shapefile from the INSEE
-path_communes = "/Users/alfonso/Dropbox/Alfonso/Cours l'X/M1/Policy-in-Action Project/Insee Tables/2- Communes INSEE/communes-20220101.shp"
+path_communes = "..../data/shapefiles/Communes/communes-20220101.shp"
 communes = st_read(path_communes)
 
 # Read the Departements shapefile from the INSEE
-path_departements = "/Users/alfonso/Dropbox/Alfonso/Cours l'X/M1/Policy-in-Action Project/Insee Tables/3- Départements INSEE/departements-20180101.shp"
+path_departements = "..../data/shapefiles/Departements/departements-20180101.shp"
 departements = st_read(path_departements)
 
 # Read the Regions shapefile from the INSEE
-path_regions = "/Users/alfonso/Dropbox/Alfonso/Cours l'X/M1/Policy-in-Action Project/Insee Tables/4- Régions INSEE/regions-20180101.shp"
+path_regions = "..../data/shapefiles/Regions/regions-20180101.shp"
 regions = st_read(path_regions)
 
 # Path to folder where you want to save the indicator dataframe
-path_export = "/Users/alfonso/Desktop/ECOLAB/Formatted Indicators"
+path_export = "..../data/3- Formatted Data/atmo.xlsx" 
 
 
 ################################################################################
@@ -52,13 +52,13 @@ path_export = "/Users/alfonso/Desktop/ECOLAB/Formatted Indicators"
 #  Convert our our lat / long into spatial point and change col name |
 #---------------------------------------------------------------------
 
-indicator = "Secheresse"
+indicator = "ATMO"
 
 # Convert into spatial points 
-sp_points = st_as_sf(data, coords = c("Longitud", "Latitud"), crs = 4326)
+sp_points = st_as_sf(data, coords = c("Longitude", "Latitude"), crs = 4326)
 
 # Change names for loop below:
-setnames(sp_points, old = "risk_weight", new = "value")
+setnames(sp_points, old = "indicator", new = "value")
 
 # Aligning coordinate systems together
 sp_points = st_transform(sp_points, st_crs(iris))
@@ -116,7 +116,7 @@ data_regions = process_polygons(sp_points, regions, "code_insee", "nom", "Region
 final_data = rbind(data_iris, data_communes, data_departements, data_regions)
 
 # Save indicator
-write_xlsx(final_data, path=paste0(path_export, "/", indicator, ".xlsx"))
+write_xlsx(final_data, path=path_export)
 
 
 

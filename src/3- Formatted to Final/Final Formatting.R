@@ -20,7 +20,7 @@
 
 #----------------------------- Import Libraries -------------------------------#
 
-packages <- c("raster", "sp", "sf", "data.table", "writexl", "tools")
+packages <- c("raster", "sp", "sf", "data.table", "writexl", "tools", "readxl", "rstudioapi")
 
 # Check each package, install if missing
 for (pkg in packages) {
@@ -33,26 +33,46 @@ for (pkg in packages) {
 
 #-------------------------- Import Files and Paths ----------------------------#
 
-# Specify all folder paths manually
-data_directory = "/Users/alfonso/Desktop/ECOLAB/Formatted Indicators"
-iris_insee = read_sf("/Users/alfonso/Dropbox/Alfonso/Cours l'X/M1/Policy-in-Action Project/Insee Tables/1- Iris INSEE/CONTOURS-IRIS.shp")
-communes_insee = read_sf("/Users/alfonso/Dropbox/Alfonso/Cours l'X/M1/Policy-in-Action Project/Insee Tables/2- Communes INSEE/communes-20220101.shp")
-departements_insee = read_sf("/Users/alfonso/Dropbox/Alfonso/Cours l'X/M1/Policy-in-Action Project/Insee Tables/3- Départements INSEE/departements-20180101.shp")
-regions_insee = read_sf("/Users/alfonso/Dropbox/Alfonso/Cours l'X/M1/Policy-in-Action Project/Insee Tables/4- Régions INSEE/regions-20180101.shp")
-france_shp = st_union(read_sf("/Users/alfonso/Dropbox/Alfonso/Cours l'X/M1/Policy-in-Action Project/Insee Tables/France shapefile/fr_100km.shp"))
-folder_path_export = "/Users/alfonso/Desktop/ECOLAB"
+# Set current directory to current folder of the script
+current_folder = dirname(rstudioapi::getActiveDocumentContext()$path)
+setwd(current_folder)
+project_folder = dirname(dirname(getwd()))
 
+# Import formatted indicators datasets
+data_directory = file.path(project_folder, "data", "3- Formatted Data" )
 # List all Excel files in the directory
-file_list <- list.files(path = data_directory, pattern = "\\.xlsx$", full.names = TRUE)
-
+file_list = list.files(path = data_directory, pattern = "\\.xlsx$", full.names = TRUE)
 # Load each file and assign it to a variable named after the file (without extension)
 for (file_path in file_list) {
   # Extract the file name without extension
   dataset_name = tools::file_path_sans_ext(basename(file_path))
-  
   # Load the data
   assign(dataset_name, as.data.table(read_excel(file_path)))
 }
+
+# Read the IRIS shapefile from the INSEE
+path_iris = file.path(project_folder, "data", "shapefiles", "Iris", "CONTOURS-IRIS.shp")
+iris_insee = read_sf(path_iris)
+
+# Read the Communes shapefile from the INSEE
+path_communes = file.path(project_folder, "data", "shapefiles", "Communes", "communes-20220101.shp")
+communes_insee = read_sf(path_communes)
+
+# Read the Departements shapefile from the INSEE
+path_departements = file.path(project_folder, "data", "shapefiles", "Departements", "departements-20180101.shp")
+departements_insee = read_sf(path_departements)
+
+# Read the Regions shapefile from the INSEE
+path_regions = file.path(project_folder, "data", "shapefiles", "Regions", "regions-20180101.shp")
+regions_insee = read_sf(path_regions)
+
+# Path to France shapefile
+path_shp = file.path(project_folder, "data", "shapefiles", "France", "fr_100km.shp")
+france_shp = st_union(read_sf(path_shp))
+
+# Path to folder where you want to save the indicator dataframe
+path_export = file.path(project_folder, "data", "4- Final Data", "final_indicators.rds")
+
 
 ################################################################################
 #            1- CREATE THE MERGED SHAPEFILE FOR FINAL INDICATORS               #
@@ -252,7 +272,7 @@ for (dataset_name in names(datasets_to_merge)) {
 
 #-------------------------------------------------------------------------------
 # Save as an excel file
-saveRDS(final_indicators, paste0(folder_path_export, "/final_indicators.rds"))
+saveRDS(final_indicators, path_export)
 
 
 
