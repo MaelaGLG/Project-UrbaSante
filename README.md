@@ -112,7 +112,7 @@ Si vous trouvez des erreurs dans le code, ou vous avez des améliorations à nou
 
 ### **Remerciements**
 
-Nous tenons à remercier l'équipe d'ECOLAB pour avoir proposé ce défi et pour toute l'aide apportée au cours du développement de cet outil. Nous remercions en particulier Paul Grignon et Theo Sigiscar pour le temps qu'ils nous ont consacré et les conseils qu'ils nous ont prodigués tout au long de ce projet. Par ailleurs, ce projet a été réalisé dans le cadre du MSc&T in Data and Economics for Public Policy et nous tenons à remercier nos directeurs de master, Pierre Boyer et Franck Malherbet, pour avoir organisé ce challenge avec ECOLAB et pour leur soutien constant.
+Nous tenons à remercier l'équipe d'ECOLAB pour avoir proposé ce défi et pour toute l'aide apportée au cours du développement de cet outil. Nous remercions en particulier Paul Grignon et Theo Sigiscar pour le temps qu'ils nous ont consacré et les conseils qu'ils nous ont prodigués tout au long de ce projet. Par ailleurs, ce projet a été réalisé dans le cadre du MSc&T in Data and Economics for Public Policy et nous tenons à remercier nos directeurs de master, Pierre Boyer et Franck Malherbet, pour avoir organisé ce challenge avec ECOLAB et pour leur soutien constant. Un grand merci également à Émilien Schultz pour nous avoir enseigné GitHub et nous avoir soutenus dans l'organisation du projet sur la plateforme.
 
 ___
 # Urbasanté Project - ECOLAB
@@ -227,7 +227,7 @@ If you find errors or have suggestions, please contact:
 
 ### **Acknowledgments**
 
-We thank the ECOLAB team for proposing this challenge and supporting the development of this tool, particularly Paul Grignon and Theo Sigiscar. This project was part of the MSc&T in Data and Economics for Public Policy, we would like to express our sincere thanks to program directors Pierre Boyer and Franck Malherbet for organizing this collaboration and their ongoing support.
+We thank the ECOLAB team for proposing this challenge and supporting the development of this tool, particularly Paul Grignon and Theo Sigiscar. This project was part of the MSc&T in Data and Economics for Public Policy, we would like to express our sincere thanks to program directors Pierre Boyer and Franck Malherbet for organizing this collaboration and their ongoing support. Many thanks also to Émilien Schultz for teaching us GitHub and supporting us in organizing the project on the platform.
 
 
 
