@@ -24,17 +24,34 @@ for (pkg in packages) {
 # Set current directory to current folder of the script
 current_folder = dirname(rstudioapi::getActiveDocumentContext()$path)
 setwd(current_folder)
+project_folder = dirname(getwd())
 
-# Define file paths for Shapefiles
-path_data = "../data/4- Final Data/final_indicators.rds"
-path_indic_corresp = "../data/Linking Tables/liaison - indicateurs et descriptions/Indicateurs Correspondance.xlsx"
-path_regions = "../data/Shapefiles/path/to/regions-20180101.shp" # modify according to you
-path_departements = "../data/Shapefiles/path/to/departements-20180101.shp" # modify according to you
-path_communes = "../data/Shapefiles/path/to/communes-20220101.shp" # modify according to you
-path_iris = "../data/Shapefiles/path/to/CONTOURS-IRIS.shp" # modify according to you
+# Path to data
+path_data = file.path(project_folder, "data", "4- Final Data", "final_indicators.rds")
+
+# Path to correspondance table (indicators)
+path_indic_corresp = file.path(project_folder, "data", "Linking Tables", "liaison - indicateurs et descriptions", "Indicateurs Correspondance.xlsx")
+
+# Path to region shapefile
+path_regions = file.path(project_folder, "data", "shapefiles", "Regions", "regions-20180101.shp")
+
+# Path to department shapefile
+path_departements = file.path(project_folder, "data", "shapefiles", "Departements", "departements-20180101.shp")
+
+# Unzip and path to communes shapefile
+path1 = file.path(project_folder, "data", "shapefiles", "Communes", "communes-20220101.shp.7z")
+path2 = file.path(project_folder, "data", "shapefiles", "Communes")
+archive_extract(path1, path2)
+path_communes = file.path(project_folder, "data", "shapefiles", "Communes", "communes-20220101.shp")
+
+# Unzip and path to IRIS shapefile
+path1 = file.path(project_folder, "data", "shapefiles", "Iris", "CONTOURS-IRIS.shp.zip")
+path2 = file.path(project_folder, "data", "shapefiles", "Iris")
+archive_extract(path1, path2)
+path_iris = file.path(project_folder, "data", "shapefiles", "Iris", "CONTOURS-IRIS.shp")
 
 # Load the data
-data = as.data.table(read_rds(path_data))
+data = as.data.table(readRDS(path_data))
 indicateurs_determinants = as.data.table(read_xlsx(path_indic_corresp))
 
 # Read and process regions shp

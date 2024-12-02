@@ -33,12 +33,18 @@ path_shp = file.path(project_folder, "data", "shapefiles", "France", "fr_100km.s
 france = st_read(path_shp)
 
 # Read the IRIS shapefile from the INSEE
+path1 = file.path(project_folder, "data", "shapefiles", "Iris", "CONTOURS-IRIS.shp.zip")
+path2 = file.path(project_folder, "data", "shapefiles", "Iris")
+archive_extract(path1, path2)
 path_iris = file.path(project_folder, "data", "shapefiles", "Iris", "CONTOURS-IRIS.shp")
-iris = st_read(path_iris)
+iris_insee = read_sf(path_iris)
 
 # Read the Communes shapefile from the INSEE
+path1 = file.path(project_folder, "data", "shapefiles", "Communes", "communes-20220101.shp.7z")
+path2 = file.path(project_folder, "data", "shapefiles", "Communes")
+archive_extract(path1, path2)
 path_communes = file.path(project_folder, "data", "shapefiles", "Communes", "communes-20220101.shp")
-communes = st_read(path_communes)
+communes_insee = read_sf(path_communes)
 
 # Read the Departements shapefile from the INSEE
 path_departements = file.path(project_folder, "data", "shapefiles", "Departements", "departements-20180101.shp")
