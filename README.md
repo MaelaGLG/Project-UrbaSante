@@ -11,9 +11,13 @@ Face à ce constat, il est nécessaire d'accompagner les décideurs locaux en le
 
 ## L'Application Cartographique
 
-Avant d'exécuter l'outil en utilisant`./app/R-Shiny App`, assurez-vous d'avoir téléchargé les fichiers nécessaires en lisant le README associé à ce dossier.
+L'outil est accessible directement en exécutant le script `./app/R-Shiny App`. Tous les fichiers nécessaires à son exécution sont déjà présents dans le répertoire, dans le dossier `./data`.
 
-Prenons un exemple pour expliciter le fonctionnement de l'application cartographique : 
+Le projet peut également être reproduit depuis le début en exécutant les scripts situés dans `./src` et en suivant les instructions fournies dans les README. Certaines bases de données doivent être téléchargées manuellement, car elles sont trop volumineuses pour être intégrées directement dans le dépôt.
+
+Il est également possible de reproduire le projet à mi-chemin, à partir des données semi-formatées (sans avoir à télécharger les données brutes). Pour plus d'informations, veuillez consulter le README situé dans le dossier `./src`.
+
+### Exemples de cas d'utilisation :
 
 1) Un utilisateur souhaite connaître l’indicateur de couvert forestier à l'echelle départementale à travers la France métropolitaine. L’utilisateur sélectionne donc :
  
@@ -127,7 +131,11 @@ Given this, there is a need to assist local decision-makers by providing an awar
 
 ## **The Cartographic Application**
 
-Before running the tool (`./app/R-Shiny App`), ensure the necessary files are downloaded, as outlined in the associated README.
+The tool can be accessed directly by running the `./app/R-Shiny App' script. All the files needed to run it are already in the directory, in the `./data` folder.
+
+The project can also be reproduced from the beginning by running the scripts located in `./src` and following the instructions provided in the READMEs. Some databases must be downloaded manually, as they are too large to be integrated directly into the repository.
+
+It is also possible to reproduce the project halfway through, from the semi-formatted data (without having to download the raw data). For more information, please consult the README located in the `./src` folder.
 
 ### Example Use Cases:
 
@@ -145,7 +153,7 @@ Before running the tool (`./app/R-Shiny App`), ensure the necessary files are do
 
 The map uses a color gradient to represent the selected indicator at the chosen spatial resolution, with lower values in purple and higher values in yellow.
 
-## **Limitations of the Tool**
+### **Limitations of the Tool**
 
 Some indicators lack data at the IRIS level due to statistical confidentiality concerns in sparsely populated areas. Local expertise may also uncover anomalies caused by incomplete data collection during the indicator construction process.
 
@@ -187,7 +195,7 @@ Indicators are either directly sourced from administrative datasets (with the so
 
 
 
-## **File Structure**
+### **File Structure**
 
 ```
 ├── README.md <- The top-level README for developers using this project.
@@ -207,7 +215,7 @@ Indicators are either directly sourced from administrative datasets (with the so
 └── app <- Script to run the app
 ```
 
-## **Contributions**
+### **Contributions**
 
 If you find errors or have suggestions, please contact:
 
@@ -217,7 +225,7 @@ If you find errors or have suggestions, please contact:
 - Maela Guillaume-Le Gall: maela.guillaume-le-gall@polytechnique.edu  
 - Sofia Vaca: sofia.vaca@polytechnique.edu  
 
-## **Acknowledgments**
+### **Acknowledgments**
 
 We thank the ECOLAB team for proposing this challenge and supporting the development of this tool, particularly Paul Grignon and Theo Sigiscar. This project was part of the MSc&T in Data and Economics for Public Policy, we would like to express our sincere thanks to program directors Pierre Boyer and Franck Malherbet for organizing this collaboration and their ongoing support.
 
