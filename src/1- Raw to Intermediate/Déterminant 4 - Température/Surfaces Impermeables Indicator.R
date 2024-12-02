@@ -7,7 +7,7 @@
 
 #----------------------------- Import Libraries -------------------------------#
 
-packages <- c("raster", "sp", "sf", "data.table", "writexl", "rstudioapi")
+packages <- c("raster", "sp", "sf", "data.table", "writexl", "rstudioapi", "archive")
 
 # Check each package, install if missing
 for (pkg in packages) {
