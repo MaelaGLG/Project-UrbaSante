@@ -8,7 +8,7 @@
 #----------------------------- Import Libraries -------------------------------#
 
 packages <- c("sp", "sf", "data.table", "dplyr", "readxl", "shiny", "shinythemes",
-              "leaflet", "RColorBrewer", "rmapshaper", "rstudioapi")
+              "leaflet", "RColorBrewer", "rmapshaper", "rstudioapi", "archive")
 
 # Check each package, install if missing
 for (pkg in packages) {
