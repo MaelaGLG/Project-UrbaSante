@@ -29,7 +29,7 @@
 # This code only concerns the IDF region
 
 # Installing necessary packages
-packages <- c("sf", "dplyr", "rgdal", "osrm", "readxl", "tidyr")
+packages <- c("sf", "dplyr", "rgdal", "osrm", "readxl", "tidyr", "rstudioapi")
 
 # Check each package, install if missing
 for (pkg in packages) {
@@ -44,6 +44,7 @@ for (pkg in packages) {
 # Set current directory to current folder of the script
 current_folder = dirname(rstudioapi::getActiveDocumentContext()$path)
 setwd(current_folder)
+project_folder = dirname(dirname(dirname(getwd())))
 
 
 # ---------------------------------- #
@@ -53,7 +54,8 @@ setwd(current_folder)
 #### LOADING AND CLEANING "carto_commune" DATABASE
 
 # Load a table with centroid coordinates of communes
-communes_centroide <- read.csv("..../data/linking tables/liaison - carto communes/carto_communes.csv")
+path1 = file.path(project_folder, "data", "linking tables", "liaison - carto communes", "carto_communes.csv")
+communes_centroide <- read.csv(path1)
 
 # Remove existing duplicates in the table
 communes_centroide <- communes_centroide[!duplicated(communes_centroide$code_commune_INSEE), ]
@@ -102,8 +104,9 @@ communes_centroide_isochrones_sf_valid <- st_make_valid(communes_centroide_isoch
 # --- 2) Cleaning the Sports Facilities Table  ------------ #
 # --------------------------------------------------------- #
 
-# Load the table
-equipements_sportifs <- read.csv("....data/1- Raw Data/Déterminant 11 - Activités physiques et sportives/equipements_sportifs.csv", header = TRUE, sep = ";")
+# Load the table --> be sure you have download the dataset and named it "equipements_sportifs.csv"
+path2 = file.path(project_folder, "data", "1- Raw Data", "Déterminant 11 - Activités physiques et sportives", "equipements_sportifs.csv")
+equipements_sportifs <- read.csv(path2, header = TRUE, sep = ";")
 
 ### Select regions neighboring the Paris region (facilities may be in a commune's isochrone)
 equipements_sportifs <- equipements_sportifs %>% filter(reg_code == "11" | reg_code == "32" | reg_code == "44" | reg_code == "28" | reg_code == "24" | reg_code == "27")
@@ -143,5 +146,5 @@ nb_equipement_communes$quintile <- cut(nb_equipement_communes$n,
 
 # Export the table
 nb_equipement_communes <- nb_equipement_communes %>% select(code_commune_INSEE, n, quintile)
-
-writexl::write_xlsx(nb_equipement_communes, ".../data/2- Intermediate Data/nb_equipement_sport_IDF.xlsx")
+path_export = file.path(project_folder, "data", "2- Intermediate Data", "nb_equipement_sport_IDF.xlsx")
+writexl::write_xlsx(nb_equipement_communes, path_export)

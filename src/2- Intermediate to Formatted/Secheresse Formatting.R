@@ -6,7 +6,7 @@
 
 #----------------------------- Import Libraries -------------------------------#
 
-packages <- c("raster", "sp", "sf", "data.table", "writexl")
+packages <- c("raster", "sp", "sf", "data.table", "writexl", "rstudioapi")
 
 # Check each package, install if missing
 for (pkg in packages) {
@@ -18,29 +18,34 @@ for (pkg in packages) {
 
 #-------------------------- Import Files and Paths ----------------------------#
 
+# Set current directory to current folder of the script
+current_folder = dirname(rstudioapi::getActiveDocumentContext()$path)
+setwd(current_folder)
+project_folder = dirname(dirname(getwd()))
+
 # Import dataset
-path_csv = "..../data/1- Intermediate Data/indicateur_secheresse.csv"
+path_csv = file.path(project_folder, "data", "2- Intermediate Data", "indicateur_secheresse.csv")
 data = read.csv(path_csv, fileEncoding = "Latin1")
 data = as.data.table(data)
 
 # Read the IRIS shapefile from the INSEE
-path_iris = "..../data/shapefiles/Iris/CONTOURS-IRIS.shp"
+path_iris = file.path(project_folder, "data", "shapefiles", "Iris", "CONTOURS-IRIS.shp")
 iris = st_read(path_iris)
 
 # Read the Communes shapefile from the INSEE
-path_communes = "..../data/shapefiles/Communes/communes-20220101.shp"
+path_communes = file.path(project_folder, "data", "shapefiles", "Communes", "communes-20220101.shp")
 communes = st_read(path_communes)
 
 # Read the Departements shapefile from the INSEE
-path_departements = "..../data/shapefiles/Departements/departements-20180101.shp"
+path_departements = file.path(project_folder, "data", "shapefiles", "Departements", "departements-20180101.shp")
 departements = st_read(path_departements)
 
 # Read the Regions shapefile from the INSEE
-path_regions = "..../data/shapefiles/Regions/regions-20180101.shp"
+path_regions = file.path(project_folder, "data", "shapefiles", "Regions", "regions-20180101.shp")
 regions = st_read(path_regions)
 
 # Path to folder where you want to save the indicator dataframe
-path_export = "..../data/3- Formatted Data/secheresse.xlsx" 
+path_export = file.path(project_folder, "data", "3- Formatted Data", "secheresse.xlsx")
 
 
 ################################################################################

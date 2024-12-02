@@ -25,7 +25,6 @@ setwd(current_folder)
 project_folder = dirname(dirname(dirname(getwd())))
 
 # Path to raster files (folder containing all the geospatial tiff files)
-
 path = file.path(project_folder, "data", "1- Raw Data", "Déterminant 4 - Temperature", "Couvert Forestier")
 files = list.files(path, pattern="*.tif$", full.names=TRUE)
 

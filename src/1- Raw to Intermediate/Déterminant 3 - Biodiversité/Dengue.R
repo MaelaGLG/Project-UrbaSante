@@ -7,7 +7,7 @@
 
 #----------------------------- Import Libraries -------------------------------#
 
-packages <- c("sf", "dplyr", "leaflet", "readxl", "tmap", "openxlsx", "writexl")
+packages <- c("sf", "dplyr", "leaflet", "readxl", "tmap", "openxlsx", "writexl", "rstudioapi")
 
 # Check each package, install if missing
 for (pkg in packages) {
@@ -22,15 +22,16 @@ for (pkg in packages) {
 # Set current directory to current folder of the script
 current_folder = dirname(rstudioapi::getActiveDocumentContext()$path)
 setwd(current_folder)
+project_folder = dirname(dirname(dirname(getwd())))
 
 # Path to dengue database
-path = "..../data/1- Raw Data/Déterminant 3 - Biodiversité/Denge" # path to folder containing the database
+path = file.path(project_folder, "data", "1- Raw Data", "Déterminant 3 - Biodiversité", "Denge")
 
 # Path to folder where you want to save the indicator dataframe
-path_export = "..../data/3- Formatted Data/Dengue.xlsx"
+path_export = file.path(project_folder, "data", "3- Formatted Data", "Dengue.xlsx")
 
 # Path to folder with the population excel 
-path_population = "..../data/linking tables/liaison - population_regions/fr_population.region.departement.xlsx" # path to folder containing the database
+path_population = file.path(project_folder, "data", "linking tables", "liaison - population_regions", "fr_population.region.departement.xlsx")
 
 # Path to the Excel file with mosquito data
 excel_file_path <- file.path(path, "Mosquitos by region.xlsx")

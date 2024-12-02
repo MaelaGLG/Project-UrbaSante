@@ -44,7 +44,7 @@ for (pkg in packages) {
 # Set current directory to current folder of the script
 current_folder = dirname(rstudioapi::getActiveDocumentContext()$path)
 setwd(current_folder)
-
+project_folder = dirname(dirname(dirname(getwd())))
 
 
 # ---------------------------------- #
@@ -55,7 +55,8 @@ setwd(current_folder)
 #### LOADING AND CLEANING OF MUNICIPAL DATABASE
 
 # Load a table with centroid coordinates of the municipalities
-communes_centroide <- read.csv("..../data/linking tables/liaison - carto communes/carto_communes.csv")
+path1 = file.path(project_folder, "data", "linking tables", "liaison - carto communes", "carto_communes.csv")
+communes_centroide <- read.csv(path1)
 
 # Remove existing duplicates in the table
 communes_centroide <- communes_centroide[!duplicated(communes_centroide$code_commune_INSEE), ]
@@ -111,8 +112,8 @@ communes_centroide_isochrones_sf_valid <- st_make_valid(communes_centroide_isoch
 
 # Load the table  
 # Be sure you have download the dataset and named it "bpe21_ensemble_xy"
-
-base_equipements <- read.csv("....data/1- Raw Data/Déterminant 10 - Accès á l'èmploi, aux services et aux équipements/bpe21_ensemble_xy.csv", header = TRUE, sep = ";")
+path2 = file.path(project_folder, "data", "1- Raw Data", "Déterminant 10 - Accès á l'èmploi, aux services et aux équipements", "bpe21_ensemble_xy.csv")
+base_equipements <- read.csv(path2, header = TRUE, sep = ";")
 
 ### Select regions bordering the Paris region (facilities may be located within a municipality isochrone)
 base_equipements <- base_equipements %>% filter(REG == "11" |REG == "32" | REG == "44" | REG == "28" | REG == "24"  | REG == "27")
@@ -136,8 +137,8 @@ base_equipements_sf<- base_equipements_sf %>% select(AAV2020, REG, TYPEQU, geome
 
 
 ## Load the table for mapping local facilities
-
-table_passage_equipements_prox <- read_excel("..../data/linking tables/part_population_eloignee/table_passage_equipements_prox.xlsx")
+path3 = file.path(project_folder, "data", "linking tables", "liaison - part_population_eloignee", "table_passage_equipements_prox.xlsx")
+table_passage_equipements_prox <- read_excel(path3)
 
 
 ## Assign the code for local facility
@@ -188,4 +189,6 @@ nb_equipements_prox_communes <- nb_equipements_prox_communes %>%
 nb_equipements_prox_communes <- as.data.frame(nb_equipements_prox_communes)
 nb_equipements_prox_communes <- nb_equipements_prox_communes %>% select(code_commune_INSEE, n, pourcentage_equip)
 
-write.csv(nb_equipements_prox_communes, ".../data/2- Intermediate Data/pourc_equipements_prox_IDF.csv", row.names = FALSE)
+# Export dataset
+path_export = file.path(project_folder, "data", "2- Intermediate Data", "pourc_equipements_prox_IDF.csv")
+write.csv(nb_equipements_prox_communes, path_export, row.names = FALSE)
