@@ -6,9 +6,7 @@ L'outil R-Shiny App est concu pour accompagner les collectivités locales dans l
 
 Lors de l'exécution de l'outil de visualisation, assurez-vous que le fichier **"final_indicators.rds"** est bien présent dans le dossier "**data/4 - Final Data"**.
 
-Vérifiez également que les fichiers shapefiles correspondant aux formes IRIS, communales, départementales et régionales, produits par l'INSEE, se trouvent dans le dossier **"data/Shapefiles"**. Ces shapefiles doivent être téléchargés directement en ligne en suivant les instructions des fichiers README fournis avec chaque shapefile.
-
-Enfin, modifiez manuellement les chemins d'accès à ces données au début du script de l'application.
+Vérifiez également que les fichiers shapefiles correspondant aux formes IRIS, communales, départementales et régionales, produits par l'INSEE, se trouvent dans le dossier **"data/Shapefiles"**. Ces shapefiles sont déjà présents, mais s'ils devaient être mis à jour avec de nouvelles versions, assurez-vous que les chemins (ou noms de fichiers) correspondent au script.
 
 ## Fonctionnement de l'application
 
@@ -42,9 +40,7 @@ The R-Shiny App tool is designed to support local authorities in conducting heal
 
 When running the visualization tool, ensure that the file "final_indicators.rds" is present in the "data/4 - Final Data" folder.
 
-Also, verify that the shapefiles for IRIS, municipal, departmental, and regional boundaries, produced by INSEE, are located in the "data/Shapefiles" folder. These shapefiles should be downloaded directly online by following the instructions in the README files included with each shapefile.
-
-Finally, manually update the paths to these data at the beginning of the script.
+Also, verify that the shapefiles for IRIS, municipal, departmental, and regional boundaries, produced by INSEE, are located in the "data/Shapefiles" folder. These shapefiles are already present, but if they need to be updated with new versions, make sure the paths (or file names) match the script.
 
 ## Usage Instructions
 
