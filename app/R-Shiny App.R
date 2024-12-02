@@ -30,7 +30,7 @@ project_folder = dirname(getwd())
 path_data = file.path(project_folder, "data", "4- Final Data", "final_indicators.rds")
 
 # Path to correspondance table (indicators)
-path_indic_corresp = file.path(project_folder, "data", "Linking Tables", "liaison - indicateurs et descriptions", "Indicateurs Correspondance.xlsx")
+path_indic_corresp = file.path(project_folder, "data", "linking tables", "liaison - indicateurs et descriptions", "Indicateurs Correspondance.xlsx")
 
 # Path to region shapefile
 path_regions = file.path(project_folder, "data", "shapefiles", "Regions", "regions-20180101.shp")
